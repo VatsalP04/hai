@@ -1,0 +1,2822 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0  Hi, and welcome to the\
+Human AI Interaction course. \
+ This will be a highly\
+interactive experience where \
+ you'll learn how to\
+envision, design and test \
+ interactive systems, with a\
+specific focus on how AI, in \
+ the many shapes and forms\
+that it now takes, can \
+ serve as a design material,\
+as something that you can \
+ work with and design and\
+make available to people. \
+ This is a new course,\
+and one that's based \
+ around design thinking,\
+so I will do my best \
+ really shape this\
+around the interests and \
+ needs of those of you\
+who end up taking this \
+ class. In our previous\
+bachelor's module, \
+ Human-Computer Interaction,\
+we've had students go off \
+ to the industry as designers\
+or UX researchers, as \
+ well as continue with masters\
+and PhDs in the area of \
+ Human- Computer Interaction.\
+So whether you're just \
+ browsing through during the\
+induction week or you've \
+ already committed to taking\
+this, I really hope that \
+ you'll find the material\
+interesting and also potentially \
+ directly applicable to\
+your next career steps. \
+Timestamp 1 minute I'm Peter Slovak and I'll\
+be your lecturer this term \
+ together with Dariana\
+who's my PhD student and \
+ who will be working with\
+you during the small group \
+ tutorials which are\
+straight after the two-hour \
+ lectures so I hope that\
+most of the times I might be \
+ able to join in for those\
+as well. Just to give you \
+ a sense about who I am, I'm\
+a reader in Human-Computer \
+ Interaction here at King's\
+College London at the \
+ Informatics department but\
+I've also been fortunate \
+ to have a couple of\
+additional visiting positions \
+ that kind of fall out\
+of my own research and a \
+ fellowship that I hold,\
+including one at the Child and \
+ Adults in Psychiatry here\
+at King's, where most \
+ of my group is currently\
+based, as well as a couple \
+ of visiting position hats\
+at University of Oxford. \
+ In case anyone's interested\
+in the type of work that \
+ I do for my research, it's\
+really close to what we will \
+ be talking about here, or\
+at least some aspects of \
+ what we'll be talking about\
+in the course, it's really \
+ looking at how would you\
+use generative AI to develop \
+ systems that can support\
+mental health or well-being. \
+ And I just put a link to\
+a talk that I gave just a \
+ couple of weeks ago for\
+you to potentially have a \
+ look if you want to. It's\
+obviously totally optional. \
+ The ends of this course\
+are mainly to give you \
+ both the theory as well\
+as practical tools so that \
+ you can envision, design,\
+prototype, and evaluate \
+ interactive systems that\
+are supposed to help \
+ humans do whatever they\
+want to do. Most of the \
+ material will be grounded\
+in talking about how to \
+ design desktop and mobile\
+apps, but we'll also \
+ touch on some of the\
+more novel and emerging \
+ interaction modes, such as\
+voice-based interaction. \
+ All the material will\
+be infused with a tidal \
+ wave of generative AI\
+that is now emerging \
+ over the last couple\
+of years, and which \
+ promises an entirely\
+new way of engaging with \
+ technology as well as\
+approaches to design. \
+ As you can imagine, the\
+speed and novelty is both \
+ a blessing and a curse. It\
+is an absolutely exciting \
+Timestamp 3 minutes time within HCI where\
+many of the approaches are \
+ being re-envisioned nearly\
+literally as we speak. \
+ But it's also somewhat\
+frustrating and confusing as \
+ there yet to emerge any\
+hard-wired rules about what \
+ are the right ways to\
+design with this technology. \
+ This is the reason for us\
+to focus the material in \
+ this course in three main\
+areas. The first is what \
+ you might call a traditional\
+interaction design. \
+ These might be the rules\
+and design principles that \
+ we will be underpinning most\
+of the apps and websites \
+ that you might have seen\
+perhaps three to four \
+ years ago, and that has a\
+long history for HCI at least, \
+ which goes back for perhaps\
+10-15 years. The second \
+ area is then thinking about\
+specifically what does \
+ it mean to design with\
+traditional deep learning, \
+ where you as a designer\
+might be working with machine \
+ learning approaches and\
+algorithms for which you've \
+ selected most of the data\
+for or where your team \
+ has selected most of the\
+data and where you're still \
+ doing most of the model\
+training as an organization. \
+ So that's where the\
+questions of bias and \
+Timestamp 4 minutes fairness and trust\
+are really crucial. \
+ Finally we'll be exploring\
+the emerging new world of \
+ generative AI and the design\
+with foundational models \
+ where you're working with\
+these big entities that \
+ have cost ridiculous amounts\
+of money and that are in \
+ that case outside of your\
+control. You might fine \
+ -tune, but most of the time\
+you're unable to really \
+ engage deeply with what is\
+happening within the foundation \
+ model, and where we as\
+a field are still trying \
+ to find out what to do and\
+how to design with these. \
+ Now, human AI interaction\
+and interaction design \
+ more broadly is a bit like\
+programming. There are some \
+ useful theories you should\
+know, but what mostly \
+ matters is really learning\
+by doing and being able \
+ to apply whatever the basic\
+theory is in practice. \
+ Part of this is that human\
+-AI interaction involves \
+ humans, and AI, that's\
+uncertain and stochastic, \
+ so it's pretty hard to\
+figure out some unbreakable \
+ rules of how humans and\
+AI operate in these ways. \
+ So what you should expect\
+from this course is that \
+Timestamp 5 minutes you'll be actively working\
+with the concepts, and that \
+ I expect that you'll be\
+able to apply these into new \
+ situations, rather than just\
+do a bit of rote learning \
+ or learn a couple of proofs\
+and then repeat whatever \
+ was said exactly in the\
+lecture during the exam. \
+ I don't know if you've\
+already seen this Bloom's \
+ taxonomy of learning, but\
+my aim is that most of \
+ the time we'll be operating\
+on these top four layers. \
+ I'll assume that you\
+remember and understand \
+ as a matter of principle,\
+and we'll be focusing \
+ mostly on helping you\
+understand how to apply and \
+ work with the concepts that\
+we'll be talking about. \
+ Given that this is going\
+to be a very fast whistle \
+ -stop tour of HCI, where we\
+essentially have one semester \
+ and one module to go all\
+over all of the basics that \
+ might normally be done\
+in more depth and across \
+ several courses in a more\
+focused bachelor program will \
+ be relying on quite simple\
+design thinking model from \
+ Stanford. I personally\
+quite like it and I think it \
+ does a great job at helping\
+people get to grips with \
+ the ideas of what does it\
+mean to design and how to \
+Timestamp 6 minutes get started with the design\
+process. While it might \
+ not encompass all of the\
+approaches and methods that \
+ you would want to do as an\
+HCI researcher It seems to \
+ also be closest to what would\
+be happening in commercial \
+ practice and at least the\
+best thing we could do \
+ when we're trying to fit\
+into these 10 or 11 weeks. \
+ What this means is that\
+we'll be going through \
+ each of these phases in\
+turn, introducing the \
+ theory as well as range of\
+tools that you could use \
+ to deliver each step.\
+Again, the focus will be \
+ on the different aspects,\
+if you can remember, \
+ basic interaction design, \
+ deep learning, as well as\
+the generative AI learning. \
+ And we will also be helping\
+you immediately apply \
+ this on your coursework in\
+your teams and get feedback \
+ on this as part of the\
+weekly small group tutorials. \
+ So let's now move on\
+to the first actual \
+ concept and content\
+of the course. \
+ We'll start by talking about\
+the core idea that will \
+Timestamp 7 minutes be following us throughout\
+the semester, the notion \
+ of interaction design.\
+So in the next 10 minutes \
+ or so, I want to walk you\
+through the definitions \
+ as well as, perhaps more\
+importantly, the examples \
+ of what interaction design\
+means, where it's useful, \
+ and what kind of proceeds\
+are useful to guide us. \
+ As a reminder, we've already\
+talked about the range \
+ of HCI areas and types\
+of applications that \
+ interaction design\
+encompasses, but it is actually \
+ even broader than that.\
+Feel free to stop the video \
+ if you want to, have a\
+detailed look, as I won't \
+ bore everyone by stepping\
+through this one by one. \
+ However, I do want to point\
+out two observations that \
+ might not be immediately\
+apparent, especially if \
+ we're coming into what is\
+interaction design from the \
+ viewpoint of, you know,\
+let's go and design an app. \
+ So the first one is that\
+interaction design is actually \
+ bordering and overlapping\
+with many areas that we \
+ wouldn't have thought of,\
+including data visualization \
+ or architecture or industrial\
+design. All of these \
+ have some aspects of designing\
+interactions, whether that \
+ is the ways in which people\
+walk through buildings \
+Timestamp 8 minutes or where they meet and how\
+they meet, or whether it is \
+ about how does the visualization\
+become understandable \
+ and how does it make sense\
+and how do people interact \
+ with it. The second key\
+point that I'd like to \
+ highlight and that we'll keep\
+on coming back to as well, \
+ is how all of interaction\
+design is subsumed by the \
+ broader notion of user\
+experience. Which kind of makes \
+ sense, as designing\
+interactions is just one part of \
+ thinking about what does a\
+user experience look like. \
+ We can have similar maps\
+that look at AI and human \
+ -centred AI too. I've just put\
+in this figure from a recent \
+ paper in one of the leading\
+conferences in the field \
+ that really looks at the\
+different types and ways and \
+ approaches that we might\
+take to thinking about AI. \
+ Again, have a look at\
+this, we might come back to \
+ this image later in the\
+course. I just wanted to show \
+ at this moment how broad\
+the area is and also how \
+ focused we will have to\
+be as we step through it. \
+ But really, interaction\
+design can be seen as anything \
+ that involves technology\
+of any certain people. \
+ So that might include\
+thinking about the interaction \
+ of how we manage a flow\
+of people at the border, \
+ what do you ask them to\
+do, where are they supposed \
+ to stand, how do they\
+interact with the technology \
+ and other humans, or\
+the ways in which every \
+ single piece of a car\
+dashboard is designed to really \
+ optimize the interaction\
+with the driver. Our \
+ lecture next week will get\
+into some of the design \
+ decisions and theories that\
+underpin such approaches. \
+ But let's start\
+with a definition. \
+ According to our textbooks, \
+ the interaction design is\
+the design of interactive \
+ products to support the\
+way people communicate \
+ and interact in their\
+everyday and working lives. \
+ Now that sounds really,\
+really broad, but kind of \
+ makes sense if what we're trying\
+to do is define something, \
+ a field, that can span\
+both how do we design a \
+ border control to core\
+dashboards, to apps, to everything \
+ else. So now let's have\
+a look at a few examples \
+ of what a good and bad\
+designs look like, to get a \
+ better sense of what this\
+breadth can actually mean. \
+ So, this is an example of a\
+bad interaction design, and \
+ it's probably bad because\
+if I say you're driving \
+ past this, and it's Wednesday\
+4pm, and you're trying to \
+ park, are you allowed to\
+park? Are you not allowed to \
+ park? No one knows. Well,\
+you might know after you look \
+ at this for a long time,\
+but that's what makes it a \
+ bad interaction Now, let's\
+have a look at the same \
+ information that is presented\
+in a slightly different way. \
+ Now, this could be\
+considered a good interaction \
+ design because if you're\
+thinking about Wednesday 4pm, \
+ well, it clearly is\
+exactly the first time \
+ when you're allowed to\
+park that day after 7am. \
+ Both of these pieces are\
+trying to communicate \
+ and enable people to\
+interact with their \
+ environments, but they're\
+doing it in different ways. \
+ And part of what we're\
+going to be learning \
+ in this course is how\
+do you get from a bad \
+ one to a good one, and\
+how do you recognize \
+ which one's which as\
+you engage with it. \
+ So let's keep on going\
+with the definitions. \
+ If the definition is\
+what we've already said, \
+ what are the goals of\
+interaction design? \
+ As you could see from\
+the previous example, \
+ the goals could be that\
+it's something that's \
+ easy to learn, that\
+it's something that's \
+ effective to use, and\
+that ideally provides \
+ an enjoyable user\
+experience, or at least one \
+ that is not entirely\
+and utterly dreadful. \
+ So, let's just have\
+a quick look back \
+ at this image that\
+we've had before. \
+ The interaction design on\
+the left side is neither \
+ easy nor effective,\
+nor does it provide an \
+ enjoyable experience,\
+unless you're the person \
+ going around and handing\
+out tickets to people. \
+ The one on the right might\
+not be enjoyable, but \
+ at least it's something that\
+visualizes and simplifies \
+ the information well\
+enough so that people \
+Timestamp 12 minutes can do what they want to\
+do, which in this case is \
+ to decide whether they\
+can park at a given time. \
+ So if we try to move\
+past the definition, \
+ what could be the\
+characteristics of what does \
+ it mean to do interaction\
+design? The first \
+ characteristic is that\
+design involves changing \
+ situations by shaping\
+or deploying artifacts. \
+ So the little things that\
+show when and how you're \
+ supposed to park, that is an\
+example of an artifact. So \
+ we're changing the situation\
+that someone sees by, \
+ for example, moving from\
+left design to the right one. \
+ It's about exploring\
+possible futures, so often \
+ there's a problem,\
+there's a terrifyingly bad \
+ version of showing someone\
+when they're allowed \
+ to park, and thinking\
+about what else could \
+ we do about this bad\
+future and turn it into a \
+ possible future, which\
+is hopefully not as bad. \
+ It's about framing the\
+problem in parallel with \
+ creating possible solutions.\
+So framing the problem means \
+ that we say, well, what's\
+wrong about this is not \
+Timestamp 13 minutes the choices about when and\
+how people can park, but \
+ the way in which those\
+choices are being presented. \
+ And it involves thinking\
+through sketching and other \
+ tangible representations.\
+So perhaps as people were \
+ moving from a bad design to a\
+good design, they might have \
+ had multiple ideas about\
+how to do this. Many of them \
+ would have been bad, and\
+then they would have ended \
+ up with the one that seems\
+to be better than the rest. \
+ And finally, \
+ the design addresses\
+instrumental, technical, \
+ aesthetical, and ethical\
+aspects throughout. \
+ So what that means is that it's \
+ really trying to be effective, \
+ it's trying to address the\
+pragmatics, pragmatics, \
+ the technical issues of\
+is it possible? It often \
+ tries to be quite pretty,\
+aesthetic, and very \
+ importantly, it needs to be\
+ethical. So we need to think \
+ about how will people use\
+it and why. If the right \
+ design was something\
+that was misleading, for \
+ example, and we've deliberately\
+designed it so that \
+ people would think that\
+they're allowed to park but \
+ would end up getting a\
+parking ticket, the ethical \
+ aspect of that would be\
+problematic. And, well, \
+ that's what many sites,\
+for example, do in terms of \
+ dark patterns trying to\
+force you to click through. \
+ The idea is that if we're\
+trying to do design, \
+ we should try and keep\
+it as ethical as well. \
+ So in this sense, we're\
+already all interaction \
+ designers, because we\
+continuously shape and \
+ create spaces in which\
+we work, live and play. \
+ My workspace might not\
+look exactly like this one, \
+ yours probably doesn't\
+either, but I'm sure you've \
+ deliberately moved things\
+around to ensure that it \
+ supports you in whatever\
+it is that you want to do. \
+ So what I want to do now\
+is to show you how we are \
+ already highly attuned to design\
+aspects within the context \
+ of what we might normally\
+do, our usual activities. \
+ That is, we already,\
+all of you, already \
+ think like designers\
+without realizing it. \
+ And the way how I want to\
+do this is that there's \
+ this example of an architect,\
+artist, who's built \
+Timestamp 15 minutes these objects that are called\
+the uncomfortable and I \
+ really invite you to visit\
+the website but they're \
+ that are just really beautiful\
+and exciting so let's \
+ have a look at two of\
+the objects that Katarina \
+ developed now these objects\
+are beautiful but also \
+ quite disconcertain you\
+can see what they refer to \
+ pair of wellies and a fork\
+but our minds automatically \
+ simulate how the interactions\
+that are enabled by \
+ these objects would look\
+like and how they would \
+ just go entirely wrong and\
+it's clear that they would \
+ not lead to the goals that\
+we might have. Wellies \
+ are about getting our feet\
+to remain dry whereas these \
+ wellies kind of seem to\
+do most of the work but \
+ the cross with sandals\
+just like totally spots \
+ everything that the rest of\
+the object is trying to do. \
+ Similarly for the fork,\
+part of what makes fork a \
+ fork is the fact that we\
+can hold it nicely and \
+ that it fits into our\
+arm and that it allows us \
+ to have some leverage\
+against the food. Now this is \
+ exactly the kind of\
+thinking that designers will \
+Timestamp 16 minutes have for apps, for human\
+AI collaborations too. \
+ It's about thinking\
+how does the object \
+ that you just created,\
+how will that enable \
+ people to do the\
+activities that they \
+ want. So you already\
+think like designers. \
+ Let's have a look at this\
+example. This might be \
+ slightly less obvious for\
+those of you who wear glasses \
+ you will automatically\
+probably know what's wrong \
+ but for those of you don't\
+it looks very pretty it's \
+ it's a beautiful pair of\
+glasses it looks a bit \
+ like owl for me it reminds\
+me of harry potter just \
+ because my daughter kept on\
+watching that but the problem \
+ here is that if you\
+imagine what it would feel \
+ like to put these glasses\
+on your head then you'll \
+ realize that that one single\
+point exactly where all \
+ of the weight of the glasses\
+is being put is entirely \
+ wrong, right? That's what\
+makes it uncomfortable. \
+ We will know that the\
+interaction will not be nice. \
+ And our brains already help\
+us see this and simulate \
+ all those interactions.\
+That is interaction design. \
+ My favorite simplification\
+though is that \
+ interaction design is\
+really designed for \
+ people using technologies\
+to undertake activities \
+ in contexts. Now\
+what does that mean? \
+ So it's not just the\
+interface or the artifact that \
+ we design, it's also about\
+how people will use it, \
+ remember Douglas Glasses,\
+and what they assume it is \
+ for, remember the well-ease.\
+In other words, what the \
+ affordances that the object\
+provides you with are. \
+ We will talk about that concept\
+more in the next segment, \
+ but for now let's just\
+try thinking about what \
+ is wrong with this design.\
+Why would it be dangerous? \
+ doesn't seem to be\
+problematic, right? Canola \
+ cooking spray probably means\
+it's oil. You can spray \
+ it on the pan, like, it\
+might blow up if you put \
+ it close to the flame,\
+but a lot of things do. \
+ So, like, what is the\
+problem with this? \
+ Now, imagine you\
+also now have this. \
+ The issue is not the\
+individual objects. It's the \
+ idea that we now have\
+two things that look very \
+ similar, and if they were\
+standing next to each other, \
+ next to a hob, you might\
+end up spraying fly insect \
+ killer instead of your\
+oil, or vice versa, spray \
+ oil all over the kitchen\
+to try and kill them all. \
+ How about this one? \
+ We might have a pan\
+that's trying to do \
+ some education\
+lesson, but the moment \
+ people start using it,\
+the problems arise. \
+ So, this is what we\
+mean when we talk \
+ about designing for\
+people using technologies \
+ to undertake\
+activities in contexts, \
+ where the interaction\
+design is really about not \
+ just the object that\
+you're designing, but also \
+ where it's going to be\
+used, how people will end \
+ up using it, and what are\
+the other things in the \
+ environment that you have\
+to be cautious of, as \
+ and when you're thinking\
+about your technologies. \
+Timestamp 19 minutes So what I'd like to leave\
+you with for this segment \
+ is really that I'd love\
+for you to remember this \
+ idea of interaction design\
+being a way of thinking \
+ about designing for\
+people who are using \
+ technologies, which might\
+be artifacts that might not \
+ necessarily be digital, to\
+undertake specific activities \
+ in specific contexts.\
+And what we're going to \
+ be talking about, so all\
+of human AI interaction \
+ and user-centred design\
+is about how do you build \
+ these technologies that are\
+easy to learn, effective \
+ to use and providing\
+enjoyable user experience. \
+ Now, as the final part of\
+this segment, I would like \
+ to point you to a thoughtful\
+but short blog post, \
+ which is part of your\
+mandatory reading materials for \
+ this week, and which outline\
+how these general design \
+ principles remain constant\
+within the new Gen AI \
+ world too, but that also\
+the specifics of how we \
+ think about doing design\
+can change quite markedly. I \
+ suggest that you read this\
+before moving to the next \
+Timestamp 20 minutes section, and I'll look\
+forward to seeing you there. \
+\
+\
+Timestamp 0 Alright, in this and the\
+next segment we'll start \
+ talking about affordances\
+which is an interesting \
+ theoretical and somewhat\
+tricky concept that is \
+ at the heart of many design\
+guidelines and tricks \
+ that we'll be talking\
+about in the next weeks. \
+ A simple test of how\
+successful the segment \
+ was for you will be\
+whether this little image \
+ will start making sense\
+to you when we're done. \
+ So remember how when we\
+talked about the objects \
+ from the Uncomfortable\
+website, most, if not \
+ all of you could probably\
+see straight away what \
+ these objects could or\
+could not be used for. \
+ Affordances are the key\
+theoretical grounding for such \
+ process of understanding\
+what is potential purpose of \
+ an object, and are the\
+key idea for these natural \
+ interactions, especially if\
+we're talking about physical \
+ objects. There is some\
+relatively deep and somewhat \
+ confusing philosophy behind this\
+notion, but for our purposes \
+ let's focus on the surface\
+level characteristics. \
+ So let's look at\
+the definition. \
+ What are affordances? \
+ The term affordance refers\
+to the perceived and \
+ actual properties of the\
+thing, primarily those \
+ fundamental properties that\
+determine just how the thing \
+ could be possibly used.\
+So what does this mean? \
+ A first part of the\
+definition, fundamental \
+ properties, is essentially the \
+ functionality that is\
+enabled by the object. \
+ So these special wellies\
+afford walking in \
+ water, although perhaps\
+not keeping your \
+ drive, and a special\
+fork affords holding, \
+ although perhaps not\
+particularly easy eating. \
+ The second part of the\
+definition talks about the \
+ perceived and actual\
+properties. What this means is \
+ that the affordance refers\
+to not just the objects, but \
+ to a relationship between\
+the object and the user. \
+ So what does this relation\
+mean? In the context of \
+ design, affordances were thought\
+of as directly, naturally \
+ perceptible clues about\
+what the objects are for. \
+ So when affordances\
+are taken advantage of, \
+ the user knows what to\
+do just by looking. No \
+ picture, label or\
+instruction is required. \
+ Complex things may\
+require explanations, \
+ but simple things\
+should not. When simple \
+ things, such as doors,\
+as we will see soon, \
+ need pictures, labels\
+or instructions, \
+ the design has failed. \
+ So when you think\
+about a button, when \
+ we see a button we\
+kind of assume now \
+ that it's something\
+that can be pushed. \
+ If we see a switch, a\
+lever, we know that it can \
+ be moved up and down or\
+whatever the axis is. And \
+ if we see something that\
+looks like a knob, we \
+ now kind of assume that\
+we'd be able to rotate it. \
+ So, what happens\
+if affordances are \
+ confusing, when we\
+think about the object \
+ having some property\
+but it does not? \
+ So in this case, if you\
+see a door and it has \
+ a handle like this,\
+well, you're probably \
+ going to hold the handle\
+and then pull, because \
+ that's what the handles\
+are usually for. So \
+ that makes all the sense.\
+But now think about \
+ what happens from the\
+other side of this door. \
+ It's nice and symmetric,\
+but it means that when \
+ you come to the door\
+from the other side, you \
+ will have a handle but\
+if you try and pull it's \
+ probably not going to\
+do anything. So the \
+ assumption is that on the\
+other side there will have \
+ to be a little thing\
+that probably says push. \
+ So what this suggests\
+is that what is \
+ perceived as an affordance\
+might be misleading. \
+ There might be situations\
+where seeing an affordance, \
+ so seeing a handle and\
+being able to pull at a DAW \
+ is good. It means it's\
+possible and it's perceptible. \
+ So it's a perceptible\
+affordance and it's one that \
+ we can do at other times\
+there's no handle you \
+ don't want to pull that's\
+also good you you know that \
+ that is not an interaction\
+that you can have with \
+ that object the two problematic\
+states are if there is \
+ perceptual information so\
+for example the the handle \
+ that allows you to pull\
+but the door doesn't allow \
+ you to pull or if it's\
+hidden so you have a door \
+ that you don't know how to\
+open because you're supposed \
+ to push and you haven't\
+realized that's the case. \
+ So the idea is that we\
+have desired actions. \
+ That's what we want to\
+enable. That's the interaction \
+ that we're trying to\
+design for. And these \
+ design actions cannot be\
+carried out if the object \
+ does not afford it,\
+meaning I want to push, but \
+ the door doesn't open that\
+way. And afforded actions \
+ might not be carried\
+out if the user doesn't \
+ perceive that these are\
+possible. So again, a door \
+ might be very easy to be,\
+like, lifted up, but if \
+ I don't know that a\
+lifting up is a possible \
+ action with that door, I\
+will not be able to do it. \
+ So in this example, \
+ from this side, the handle\
+seems to be a perceptible \
+ affordance. I mean, there's\
+additional information on \
+ the side that guides us to\
+it as well, but we can pull. \
+ On the other side, it\
+might be more problematic. \
+ So just to finish up with\
+this boring door interlude, \
+ if designers were in\
+control of the world, \
+ this is how all doors\
+would look like. \
+Timestamp 5 minutes If you're supposed to push\
+at a door, it does not \
+ have a handle, it just\
+has a little strip that \
+ indicates this is where\
+you push. This side of the \
+ door is where you push.\
+If you're pulling, you \
+ have a handle, you hold\
+it, you pull. And if you're \
+ supposed to turn, then\
+you probably have a knob. \
+ as you go outside,\
+after you finish \
+ watching this lecture,\
+wherever you are, go \
+ and have a look at\
+a couple of doors. \
+ It's very likely that many\
+of them will not follow \
+ this pattern, and that you\
+might have had, probably \
+ had that experience of\
+trying to walk through a door \
+ and pulling at it or pushing\
+at it, because that's \
+ what it seems to afford,\
+and then banging your face. \
+ In effect, whenever the\
+functionalities are not \
+ naturally obvious, you might\
+need to add more design \
+ elements that can supplement\
+and provide cues to the user \
+ as to how they can or\
+should interact with your \
+ system. Now we've been\
+mostly talking about physical \
+ objects so far and that's\
+just because they're quite \
+ simple and understandable\
+and these affordances are \
+ something that is quite clear\
+and close to the functionalities \
+ you might want to do.\
+So you could see the \
+ wellies and the affordances\
+that they have or you could \
+ see the fork. The same ideas\
+apply with digital objects \
+ too, and especially ones\
+that are powered by AI. \
+ So the idea of desired\
+actions and afforded \
+ actions plays out\
+with digital systems \
+ too. So this little\
+video shows what seems \
+ to be a relatively\
+simple interaction, \
+ which is actually not that\
+simple, but it's one that \
+ we've already been well\
+trained to do. So there's a \
+ text box, we can probably\
+write there, things appear \
+ underneath that get highlighted\
+as we mouse over, so \
+ that's probably clickable,\
+and when we need to send \
+ something to the AI, we're\
+getting the answers back. \
+ So the desired actions here\
+are to search, potentially \
+ to get some suggestions\
+and save some typing, as \
+ well as be able to decide\
+when the query is complete \
+ and I want to hand it over\
+to them to get answers. \
+ The afforded actions\
+are also very close. \
+ We can type, we can\
+select, we can send. \
+Timestamp 7 minutes Now this is a\
+different example. \
+ One that is, again, using\
+the power of AI, but it's \
+ much less clear, and I've\
+taken this from Adobe \
+ websites, where it seems\
+that you're capable of \
+ manipulating images in these\
+really complicated ways, \
+ but at least for myself,\
+when I haven't been working \
+ with the system, what\
+the affordances are, what \
+ the desired actions even\
+would be that I'd like \
+ to carry out, and what the\
+afforded actions are just \
+ isn't as clear compared\
+to the previous example. \
+ So what is the takeaway\
+here? The whole idea of \
+ affordances is just a way of\
+helping us think through how \
+ when we're designing user\
+interfaces and experiences, \
+ we kind of automatically\
+use queues that suggest \
+ actions that are possible\
+by an interface element. \
+ If we have a stack of\
+cards, that might allow \
+ us to rearrange and\
+shuffle. If we have an \
+ underlying text on a\
+website, it suggests \
+ that it's a hyperlink\
+and it can be clicked. \
+ If we see something\
+that looks like \
+ a welly, we kind\
+of automatically \
+ assume that it will\
+keep our feet dry. \
+ But we're still figuring\
+these out for AI, and \
+ that's what the rest of\
+the course is also about. \
+ So to end this section, \
+ I'll be pointing you again\
+to a fairly lovely blog \
+ post by the same person who\
+has started about affordances \
+ in the 80s, mostly for\
+physical design at that \
+ point, and is now describing\
+how the concepts can have \
+ purchased and be used within\
+digital systems as well. \
+ So please pause the video,\
+go and have a read before \
+ you start the next\
+segment, as I'll assume you \
+ will have at least kind\
+of skimmed or read and \
+ ideally understood the main\
+ideas of the text there. \
+ Okay, welcome back. I'm\
+assuming you've read the \
+ text so you know what\
+signifiers and affordances are, \
+ but just to double-check\
+and define them together. \
+ Affordances, as\
+we've talked about, \
+ define what actions\
+could be possible. \
+ And signifiers then specify\
+how people discover these \
+ possibilities. So signifiers\
+are signs, perceptible \
+ signals of what can be done.\
+So the pieces of affordances \
+ that can be perceived by\
+people are signifiers, and \
+ if these signifiers are\
+created by the designer, it's \
+ called something that's\
+called of a social signifier. \
+ So what does this mean? And\
+again, sorry, we're going \
+ to stay with doors just because\
+doors are lovely, people \
+ like them or not, but more\
+importantly, they're quite \
+ simple and good examples\
+to show these constraints. \
+ So when we look at this,\
+we kind of know what \
+ we've talked about the handle\
+as being an affordance, \
+ right? So it's something\
+you can hold and often \
+ you might be able to\
+pull. Now the signifier \
+ is suggesting and explaining\
+what to do, because \
+ affordances, in this case,\
+seem to be confusing. \
+ Let's have a look\
+at another example. \
+ In this case, this is\
+a little more exciting, \
+ right? So we have a\
+signifier with some \
+Timestamp 10 minutes icons showing what\
+is locked and what is \
+ unlocked, because that\
+is not entirely obvious. \
+ And we also have some\
+affordances, so there's a button \
+ for opening that seems to\
+be just about the same size \
+ as a thumb would be, so\
+that's an affordance. it's \
+ something that you probably\
+can click. And then you \
+ have a sliding lock that will\
+be used to really lock the \
+ coffee mug, and that's what\
+the signifier suggests. \
+ Let's have a look at a\
+digital version of this. In \
+ digital versions, the\
+affordances might be more \
+ hidden, right? Because\
+they're digital. So in this \
+ case, the affordance is\
+the fact that we can tap \
+ onto something. It's the\
+button itself, the tap \
+ target that sets up a set\
+space, an attach system, \
+ And it's not really the\
+visual representation of \
+ the button, you could\
+have an affordance, the \
+ ability to tap, even though\
+there is no button there \
+ that would signify that\
+that affordance is there. \
+ Then we have the signifier,\
+which is a visual \
+Timestamp 11 minutes representation of the\
+button, a light bulb, icon to \
+ tell you what's happening,\
+whether you've tapped \
+ it, a label to tell you\
+which button or which \
+ room the button relies on,\
+and some sort of additional \
+ information about the\
+bulb. So all of those \
+ are signifiers about the\
+underlying affordances. \
+ So to finish up these\
+examples of the affordances \
+ and their relationships\
+to signifiers, \
+ let's go back to the\
+chatGBT example that we've \
+ had before as part of\
+the video. I won't label \
+ everything, but just\
+to give you some ideas, \
+ the fact that we can type\
+is a particular affordance. \
+ We might have a little\
+signifier that suggests that \
+ that button kind of sends,\
+that's the little arrow. \
+ we have another signifier\
+that kind of highlights \
+ as you mouse over that\
+you're able to pick and that \
+ this is something that\
+will be reactive and so on. \
+ So the whole idea is that\
+this notion of affordances \
+ and signifiers allows you\
+to think about what are the \
+Timestamp 12 minutes capabilities and interactions\
+that your technologies \
+ afford and then also how\
+do you make these visible \
+ and available and understandable\
+to your participants. \
+ So again, \
+ affordances define what\
+actions are possible, \
+ signify or specify how\
+people discover this. I think \
+ that what I really like\
+about this particular picture \
+ is that when you do look\
+at a tree trunk, you kind \
+ of can see, it's a physical\
+thing, you can see what \
+ that object will be used\
+for. Because you've seen so \
+ many other objects that\
+looked like it, and there's \
+ something about chairness,\
+because it's the right \
+ height, it's the right\
+width, hopefully it's not too \
+ sticky or too dirty, but you\
+can imagine sitting on it. \
+ Within the digital experiences, \
+ that's a little bit harder. \
+ So the idea is that you\
+have a bunch of pixels, and \
+ some of these pixels have\
+some properties, such as \
+ that they're pushable,\
+that you can do something, \
+ whereas others do not. So\
+there is this idea that \
+ signifiers become really\
+important within the digital \
+ environments, because the\
+affordances often end up being \
+ exceedingly hidden. So the\
+idea of kind of being able to \
+ use and build on what we'll\
+call mental models, which \
+ is something we'll be talking\
+about next week, to help \
+ people understand which ports\
+of the screen are pushable \
+ and which parts of the\
+screen you can select or \
+ scroll through and so on,\
+all of these will be ways in \
+ which you apply that design\
+thinking and that design \
+ sense and use signifiers in\
+ways that people understand. \
+ A lot of this thinking\
+comes from a very famous and \
+ now very senior professor\
+at UCSD called Dan Norman, \
+ and I'd really recommend\
+you reading these books. \
+ Obviously, they're not a\
+mandatory part of reading, but if \
+ you're interested in design,\
+or if you're interested \
+ in potentially taking this\
+as either a career or as \
+ a research career, these\
+two books are really, really \
+ exciting, and you will see\
+all the professors and all, \
+ and most of the UX\
+practitioners also know these \
+ two books quite well, because\
+even though that they're \
+ reasonably old by now, The\
+ideas, the ways in which \
+ Don Norman's capable of\
+talking about the principles of \
+ how human cognition works\
+and why you work with design \
+ the way you do, those just\
+remain true, even now. \
+ And I'll just want to\
+leave you with this one \
+ little example. So what\
+are the affordances \
+ here on both the original\
+and fixed version? \
+ Have a think. What are\
+the signifiers? How does \
+ this match with the\
+three design goals that \
+ we've talked about in the\
+first session? Just pause \
+ the video and think\
+about it. Are you able to \
+ apply these concepts to\
+this particular image? \
+ Is it clear to you?\
+If not, read more, \
+ go back to the videos,\
+think about it. This is what \
+ most of the course will be\
+about. There's some theory \
+ but now you have another\
+example of a design problem. \
+ How do you apply it here?\
+What does it say? What \
+ can you tell about it? How\
+would you redesign this? \
+\
+\
+Timestamp 0 Hi and welcome back. In\
+this last segment for this \
+ week, I'll try to briefly\
+introduce the processes \
+ of user-centred design,\
+which you will then hear \
+ much more about in weeks\
+four to six. I'll start \
+ with potentially slightly\
+boring definitions, \
+ introduce a few more fun\
+ways which people have \
+ previously tried to use to\
+explain the process, often \
+ in some form of what is\
+called a double diamond, \
+ and then jump into an\
+example of how a user-centred \
+ design looks like based\
+on the research piece \
+ that we've done in our\
+group over the last summer. \
+ All right, let's get going. \
+ As a quick reminder, what\
+we've been talking about \
+ in the previous part of the\
+lecture was all associated \
+ with what does it mean\
+to think like a designer. \
+ We've talked about the\
+notion of affordances \
+ that are often\
+visible for physical \
+ objects such as the\
+uncomfortables here, \
+ as well as signifiers which\
+take a higher importance \
+ in digital designs.\
+And also about how all \
+ design is actually\
+situated in how, when, why, \
+ and for what people want\
+to use what you created. \
+ This is what makes the objects\
+on the right so interesting. \
+ They clearly nod at a\
+particular use, but there \
+ is something about how these\
+are designed that would \
+ either break the activity\
+that's being supported, or just \
+ not work in the context\
+where you want to use them. \
+ We also talked about\
+oversimplifying, but \
+ fairly useful way of\
+defining interaction design \
+ goals as easy to learn,\
+effective to use, \
+ and providing an\
+enjoyable user experience. \
+ At least one of these\
+three goals is then what \
+ fails both for these\
+bad designs here as well \
+ as for every single one\
+of the uncomfortable \
+ ones. And I hopefully, I\
+think you should now be \
+ able to identify and see\
+what these fails are. \
+ All right, but so far\
+you might say, Oi, Peter, \
+ all you've been telling\
+us is about that we \
+ should know when stuff is\
+right, We should really \
+ know when it's wrong,\
+but it's not really clear \
+ how to get from the\
+latter to the former or \
+ ideally decide the right\
+thing from the get-go. \
+ So what should we do? \
+ This process of getting\
+to the right results that \
+ fits with what users need\
+is often encompassed by \
+ what the literature calls\
+a user-centered design. \
+ The latest ICO from 2019\
+defines user-centered design \
+ as a approach to systems\
+design and development that \
+ aims to make interactive\
+systems more usable by focusing \
+ on the use of the system\
+and applying human factors \
+ or ergonomics and usability\
+knowledge and techniques. \
+ Well, that's a mouthful. The\
+Interaction Design Foundation \
+ explains the same thing,\
+but in slightly different \
+ words, focusing less on what\
+the aims are, more usable, \
+ applying user factors and\
+so on, and emphasizing more \
+ the process through which\
+these goals are achieved. \
+ So the user-centred design\
+is an interactive design \
+ process in which the\
+designer focuses on the users \
+ and their needs in each\
+phase of the design process. \
+ So what this means is\
+that in the UCD the \
+ design teams involve users\
+throughout the design \
+ process through a\
+range of or variety of \
+ research and design\
+techniques to create highly \
+Timestamp 3 minutes usable and accessible\
+products for people. \
+ But what it really\
+doesn't tell us is \
+ what are these variety\
+of research and \
+ design techniques\
+that we could use. \
+ So let's jump into the\
+overall models of the process. \
+ What stages do these\
+definitions expect you as a \
+ designer to go through? And\
+I'll show a couple of examples \
+ of how the user-centred design\
+process was conceptualized \
+ so you get an idea of\
+what the common patterns \
+ are that seem to emerge\
+across many of these ideas. \
+ So in this process,\
+which is the ICO 2019 \
+ human-centered design\
+one, you start with \
+ planning the human\
+-centered design process, \
+ because obviously\
+that's important, \
+ but then you move to\
+understanding and specifying the \
+ context of use. There are these\
+magical user requirements, \
+ which is something we'll\
+talk about as often being \
+ pretty hard to do most of\
+the time, And then these \
+ arrows kind of walk you\
+through, right? So you produce \
+ design solutions that meet\
+those user requirements. \
+ You evaluate those designs\
+across or against those \
+ requirements. And then these\
+kind of dashed arrows essentially \
+ talk about the possible\
+failure points. You might \
+ have gotten the context\
+and the requirement rights, \
+ right? You just messed\
+up the design solution, \
+ so you go back to producing\
+a different design \
+ solution. That doesn't\
+fail your evaluation. \
+ Or you might need to go all\
+the way back and you say, \
+ well, we've clearly actually\
+misunderstood what it is \
+ that we're trying to do.\
+We designed for the wrong \
+ context. This doesn't work.\
+We need to kind of go back. \
+ So overall, the key\
+emphasis here is \
+ that this is not\
+a waterfall model. \
+ It's not something where\
+you specify it up front, \
+ you have all the\
+information, you decide \
+ what's going to happen,\
+and then you just deploy. \
+ It's much more similar to\
+what might be happening in \
+ Agile. So a lot of iteration,\
+a lot of assumption \
+Timestamp 5 minutes that you never have enough\
+information at the start, \
+ and that it's through the\
+design and through the process \
+ of building things that\
+you gain the information \
+ you need so that you can\
+start making good choices. \
+ From a 10,000 feet level,\
+the process of design can \
+ also be seen as moving\
+from a place where we don't \
+ really know and there could\
+be a solution, and in fact \
+ we probably can't even\
+articulate the problem that's \
+ supposed to be solved\
+properly, to a place where \
+ we only know what, not only\
+know what the problem is, \
+ but we've already designed\
+and tested the solutions \
+ and now, you know, they're\
+out there, whether it's \
+ in your research thesis or\
+out there in in commercial \
+ sphere. The double diamond\
+model should not be seen \
+ as a linear process and\
+we'll keep on seeing this \
+ kind of notion of diverging\
+and converging and diverging \
+ and converging at least\
+twice repeatedly. So it's \
+ not a linear process where\
+you go from A to B and \
+ you kind of never stop but\
+it's it's really supposed \
+ to be a map of the types\
+of design thinking or the \
+Timestamp 6 minutes areas of interest that you\
+will likely visit along the \
+ way although you'll be\
+cycling throughout and kind \
+ of coming back and forth,\
+just like within the ISO. \
+ So a couple of the main\
+points that I want to \
+ highlight here are the\
+big difference between \
+ doing the right things\
+and doing things right. \
+ What this is trying\
+to say is that very \
+ often in design,\
+you do not know what \
+ is it that you should\
+even be building. \
+ So often the first part of\
+this diverge and converge \
+ system is really just\
+about you getting the \
+ right understanding of\
+what the problem is, what \
+ is it that the users need,\
+what is their activity, \
+ what is the context,\
+what do we need to know \
+ about it, and what should\
+the system even be doing. \
+ So this notion of a design\
+brief is a really critical \
+ document that actually ends\
+up being a key contribution \
+ for much of the work. So\
+this idea that you might \
+ spend more than half of\
+your process, 60-70% of \
+ your time, just even figuring\
+out what is it that the \
+ design should do that is\
+entirely normal and natural \
+ so the other piece that\
+we want to focus on is if \
+ you move from doing the\
+right things and you move \
+ to doing things right\
+again you will be expecting \
+ that even though you've\
+had the design brief and \
+ you know what you're\
+trying to do you will again \
+ start ideating you'll\
+start having many ideas \
+ and many possibilities\
+that you need to explore \
+ before you start converging\
+down to the right solution. \
+ So these diverge and\
+converge models are \
+ something that very often\
+is seen as defining design. \
+ And again, it's this idea\
+of thinking through doing \
+ and never knowing all the\
+information you need to \
+ have. So there's this\
+phrase where if we knew \
+ exactly what we want to do,\
+you wouldn't need designers. \
+ The design is about\
+understanding and mapping \
+ some sort of difficult,\
+hard, tangly, wrangly problem \
+ that doesn't necessarily\
+have a clean solution. \
+ Alright, and the last piece\
+that I want to highlight \
+ is that there's really\
+an expected iteration, \
+ certainly within the\
+diamonds, so as you're \
+ diverging and converging\
+there's a lot of iteration \
+ between what you believe\
+the ideas might be, how \
+ do you define your\
+research areas and methods, \
+ you know, what do you do\
+as primary research? You \
+ might find insights that\
+then lead to you having to \
+ redefine an area and start\
+doing more primary research \
+ and so on. As well as then\
+potentially across the \
+ diamonds. So after you've\
+defined your brief and \
+ you have some ideas and\
+you're trying to start to \
+ deliver, so all the way\
+potentially even back here where \
+ it says build a trade and\
+repeat, you might realize \
+ that actually by the way\
+in which people started \
+ using your system that you've\
+misunderstood something \
+ really important and it\
+might kick you not entirely \
+ back you don't forget\
+all the work that you've \
+ done but there will be\
+phases of the first diamond \
+ where you realize that you\
+don't know what the right \
+ things are yet and you'll\
+have to go back so it is \
+ confusing it's iterative and\
+it's it's certainly something \
+ that's quite fun so to\
+illustrate the differences \
+ between what does it really\
+mean to find a good design \
+ brief and how might we do\
+it with users. So there's \
+ this idea of we're talking\
+about user-centered design. \
+ What are the users' needs?\
+What are their hopes? What \
+ are their dreams? How will\
+they use systems? But those \
+ systems don't exist yet. So\
+there's this famous quote \
+ that probably has never\
+been said. But if you think \
+ about Henry Ford as the\
+person who designed the first \
+ car, he's told to be saying\
+that if I had asked people \
+ what they wanted, they would\
+have said faster horses, \
+ right? And this is all\
+always or often presented as \
+ the idea of you have this\
+tension of really trying to \
+ understand what people's\
+needs are, but people usually \
+ don't know what the solutions\
+to those needs would be. \
+ So the follow-up to this\
+is, but what Ford did notice \
+ was that when he asked what\
+people wanted, the main \
+ thing they said was that\
+they wanted a faster horse \
+ who doesn't get tired,\
+rather than more comfortable. \
+ I think this is what\
+you'll be hearing much \
+ more about in weeks\
+four, probably, and five, \
+ but this idea of being\
+able to go to users and \
+ understand what they need,\
+even though they might not \
+ know what the solutions to\
+their needs are, is really \
+ critical and interesting\
+tension within the Sun. \
+ So just very quickly now,\
+another way of simplifying \
+ the design process, especially\
+around involving users' \
+ needs, comes from the Stanford\
+Design School and IDEO. \
+ It's positioned again\
+as a series of stages, \
+ but you'll see all\
+these little arrows \
+ that indicate that in\
+real projects you'll \
+ be flying back and\
+forth between these. \
+ And we've started\
+to talk about little \
+ bit of some of these\
+tools, about what is \
+Timestamp 11 minutes it to empathize,\
+what is it to define, \
+ but the rest of the semester\
+will kind of be going \
+ through the individual\
+stages, especially in weeks \
+ four to six, and you'll\
+understand more about this. \
+ So just to close off this\
+section, I'm leaving a \
+ couple of slides here from\
+IDEO, which is one of the \
+ most famous design studios\
+on the planet, and I'll \
+ let you read these if\
+you're interested, but this \
+ first slide just outlines\
+the types of questions that \
+ designers will ask in\
+different parts of the process \
+ and notice again how\
+does diverge and converge \
+ models are happening twice\
+just like in the diamond \
+ model right so all of these\
+are restatings of this \
+ idea that seems to be\
+really common where we need \
+ to understand what is it\
+that we're even trying to \
+ design and then try to design\
+it properly but in both \
+ cases we have to diverge\
+to understand what the \
+ range of ideas are And then\
+only then we might start \
+ converging on what good\
+solutions would look like. \
+ And the second slide is\
+one that shows the seven \
+ key lessons or the approaches\
+that IDEO works. And \
+ I really like this because\
+it's clearly aligned \
+ with the way that we've\
+ended up doing design in \
+ my lab. But it also helps\
+us articulate how design \
+ differs from other science\
+areas. For example, \
+ if we're trying to introduce\
+these ideas of design \
+ thinking or innovation\
+into clinical teams at \
+ Harvard, Cambridge, Oxford,\
+various universities. \
+ So if you have a\
+few moments, just \
+ pause the video,\
+have a read through. \
+ You'll see that each of\
+these is a way of thinking. \
+ It's a way of approaching\
+the world that is sometimes \
+ similar to what an engineer\
+might do automatically, but \
+ often it is not. and it's\
+it's a really interesting \
+ way of knowing and seeing\
+and engaging with problems. \
+ So much of what we've\
+talked about now has been \
+ mostly focused on the\
+traditional design processes \
+ as these still encompass\
+a large proportion of \
+ what you might do. But\
+obviously we've been talking \
+ about these two different\
+types of AI and how this \
+ will differ and impact\
+these design processes. \
+ So, to hint at the differences,\
+I just wanted to leave \
+ you with this beautiful\
+image that comes from a \
+ relatively famous paper now,\
+which is about two years \
+ old, that kind of indicates\
+the difference between \
+ traditional design and\
+designing with these stochastic \
+ amorphous systems that kind\
+of seem to wave and shape \
+ underneath your hands.\
+Now, the top is a really \
+ famous image it's it's called\
+the design squiggle it's \
+ very often used to show how\
+much of a mess design is \
+ and how you go from one side\
+to the other and how it's \
+ really kind of messy and\
+all over the place at the \
+ start but then over time\
+the amplitudes kind of start \
+ leveling out and then you\
+have a clarity and focus \
+ and that's when you've\
+actually started you know \
+ prototyping and designing\
+the real system you're past \
+ prototypes but you're now\
+you know what you're trying \
+ to do you know what the\
+design is and now it's about \
+ engineering and execution\
+and marketing and all of \
+ these really important areas\
+but from a design perspective \
+ you know now and underneath\
+you can see how that \
+ same squiggle has been kind\
+of adapted into a never \
+ -ending area which hopefully\
+might not be exactly the \
+ case now it is two years\
+old but it indicates how \
+ the generative AI AI\
+approaches might change what it \
+ even means to design and\
+how we might deal with this. \
+ So what I want to leave\
+you with today is this \
+ beautiful blog by someone\
+who's a general manager \
+ at Xbox and who writes\
+about this idea of treating \
+ AI as design material,\
+which is something that \
+ comes from art and design\
+as making things pretty, \
+ where the idea is that\
+each medium, so whether \
+ it's clay or wood or stone,\
+if you're a sculptor, \
+ each of that medium has a\
+life of its own and it kind \
+ of resists what you want\
+to do. It might splinter. \
+ And the role of the designer\
+is to really understand \
+ the quirks and the ways in\
+which the medium kind of \
+ works in ways that you don't\
+expect. So what this blog \
+ talks about is like clay\
+resists, wood splinters and \
+ ai misinterprets it's it's\
+something we need to learn \
+ to deal with and it's that\
+material friction where good \
+ design happens i'd really\
+encourage you to read this \
+ um it's not that this is\
+going to be anywhere on the \
+ on the final test um it doesn't\
+have a particular concept \
+ in it that um would be a\
+theory that you need to \
+ understand that you know, AI\
+does X, Y, and Z, but I think \
+ it's a really interesting\
+way of getting your head \
+ around what does it mean to\
+design and what does it mean \
+ to design with things like\
+AI that we don't understand \
+ yet fully, we don't know\
+how it works as designers, \
+ because it keeps on\
+changing underneath our \
+ hands and we haven't\
+quite gotten the rules \
+ of thumb or best\
+practices down just year. \
+ So please give this a read. \
+ Alright, so to wrap up\
+with an example, I wanted \
+ to do a quick run\
+-through of this work that \
+ we've done with lovely\
+people across Cambridge \
+ and Stanford and University\
+of Washington and \
+ University of Michigan\
+last year over the summer. \
+ So this is a research paper\
+that I've been pulling \
+ pieces out of. It's also\
+something that hopefully will \
+ be able to show you some of\
+the steps of the user-centred \
+ design process that we were\
+talking about on something \
+ that's ended up being\
+surprisingly interesting and \
+ maybe will become reasonably\
+influential over time. \
+ So it's something that's,\
+as I said, emerged from a \
+ sprint over the summer where\
+we were trying to understand \
+ how could we collect\
+information from young people \
+ that would allow them to\
+articulate their difficult \
+ experiences with social media\
+and the reason was that we \
+ wanted to build a mental\
+health intervention or \
+ cognitive reappraisal intervention\
+that would support young \
+ people as they engage with\
+social media and potentially \
+ struggle. So we're working\
+with James Gross who's \
+ essentially the person who's\
+built up the whole field \
+ of emotional regulation and\
+he's based at Stanford as \
+ well, Sammy Orban, who's\
+focused very much on social \
+ media and policy and social\
+media harms at Cambridge. \
+ But within those 12 weeks\
+of inception, we've moved \
+ from not having anything\
+and just having that idea to \
+ something that we built that\
+already was shown to work \
+ in a randomised controlled\
+trial and had interest from \
+ a range of researchers at\
+leading institutions, you \
+ know, you can read some of\
+the names, across domains, \
+ including basic psychology\
+and clinical and human \
+ -computer interaction and\
+implementation science and so \
+ on, as well as seeing this\
+work or the tool being brought \
+ into a range of application\
+areas, from maybe data \
+ gathering to starting to\
+think about interventions. \
+ So how did this happen?\
+What was the process that \
+ underpinned this 12-week sprint\
+from nothing to now we have \
+ a tool that a lot of people\
+are interested in using? \
+ I'll break it down into\
+the design, according \
+ to the design thinking\
+phases, just to give \
+ you a sense. So the\
+first one's talking about \
+ understanding the user's\
+needs and problems. \
+ So what is it that we're\
+even trying to solve? \
+ So in our case, the\
+users were actually these \
+ research groups, right?\
+So they needed to get this \
+Timestamp 19 minutes information from hundreds\
+of young people in ways \
+ that young people would\
+be willing to share and \
+ would be able to articulate\
+these experiences. \
+ So the broader idea was\
+that we actually realized \
+ that we don't have tools, we\
+don't have ways of collecting \
+ these narratives, these\
+ideas, these stories from \
+ participants at scale\
+without excessive participant \
+ burden or research costs.\
+And what this means is \
+ that your traditional models\
+are to interview people \
+ over Zoom or phone and as\
+you might have noticed if \
+ anyone has ever asked you\
+to do a research study, most \
+ young people just don't\
+want to participate, it's \
+ not interesting and also\
+it's just really hard to \
+ arrange that hour in your\
+day where you fit with what \
+ the interviewer can do and\
+what you can do and then \
+ often you don't get people\
+showing up and so on. So \
+ we just had no way of\
+collecting this data at scale. \
+ So that was our understanding\
+and And what we've \
+ tried to really do was\
+to think about, well, \
+ why don't people\
+engage and what is \
+ it about the process\
+that is hard? \
+ So we started thinking about, \
+ well, what would we need? \
+ We would ideally need,\
+not very much, we \
+ don't need long stories\
+from participants. \
+ We need stories that are\
+relatively focused and \
+ succinct, but they need to\
+answer all the pieces of \
+ knowledge that we need. So\
+this is an example of one of \
+ the stories that we've\
+gotten as the output. But if \
+ you had an open text form\
+that just asked you, you \
+ know, tell me about your\
+social media experiences, \
+ getting young people to\
+consistently write stories \
+ like this in this format\
+seemed pretty hard, and \
+ the experience suggested\
+that that wouldn't happen. \
+ So our design challenge,\
+if you remember thinking \
+ about design briefs,\
+Our design challenge was \
+ that we're really trying\
+to develop what we would \
+ call a remote narrative\
+elicitation method. So \
+ what that means is a way\
+to help people articulate \
+Timestamp 21 minutes stories. That has the\
+following characteristics. \
+ It provides enough\
+open-endedness because \
+ we didn't want to\
+turn it into a survey. \
+ We really needed\
+to collect stories. \
+ It provides enough consistency\
+across participants. \
+ So we wanted to ensure and\
+enable the participants to, \
+ you know, not tell us too\
+much or not tell us too \
+ little, really. And also just\
+focus on getting the right \
+ answers that we needed and\
+not too much, again, just \
+ to balance the burden that\
+we're placing on people. \
+ And something that reduces\
+the cognitive burden, which \
+ ideally will then mean\
+that it also increases the \
+ willingness to engage and\
+also the ability to engage. \
+ so i'm conscious that\
+we have over an hour of \
+ recorded material by now\
+um anyway so i'm really \
+ running through this\
+very quickly we might \
+ talk a little bit more\
+about this um during the \
+ large group tutorial or\
+lesson that we have um \
+ together but the idea was\
+that if we have defined \
+Timestamp 22 minutes this this way how did\
+we start thinking about \
+ well what the solutions\
+would look like right \
+ so now we're moving\
+into the second diamond. \
+ I've not shown you much\
+of the process, but \
+ we've ended up in a place\
+where we now know what \
+ our target is. We're\
+trying to build this remote \
+ elicitation method\
+and it has particular \
+ characteristics. So what\
+could the solutions be? \
+ Our idea was that we\
+started thinking about, if I \
+ asked someone to craft\
+these four to six sentences, \
+ long descriptions, what\
+is it that they need to \
+ be able to do? So what\
+is it that we're actually \
+ asking them to do cognitively?\
+We're asking them to \
+ know what to focus on in\
+that challenging situation, \
+ which might or might not\
+be easy. If you spend \
+ your life thinking about\
+all the things that social \
+ media kind of worry you\
+or make you annoyed about, \
+ well, it'll be an easy\
+story for you to tell. But \
+ if you don't, if it's\
+just part of your life, it \
+ might be harder to know how\
+to answer that question. \
+Timestamp 23 minutes We then wanted them to\
+know how much abstraction \
+ they need to do. Is\
+it a word? Is it a \
+ sentence? Is it a two\
+-page essay? What is \
+ the level of abstraction\
+that we need for each \
+ of the aspects that\
+we need to hear about? \
+ Third point, I think,\
+is the crucial one. \
+ Yet people needed to both\
+be able and willing to \
+ articulate a story that\
+was coherent and that is \
+ kind of fitting into the\
+format that we needed. \
+ And finally, we needed to\
+ensure that even if you \
+ write a story, it doesn't\
+mean that it actually captures \
+ what your experience was\
+or what you wanted to do. \
+ So from ours, as we were\
+ideating, we were thinking, \
+ well, okay, this is actually\
+what we're trying to get \
+ people to do. So this became\
+part of a design brave, \
+ but it happened as a way\
+of thinking about what the \
+ solution would be. What is\
+it that we could support for \
+ each of these key steps\
+along this trajectory here? \
+Timestamp 24 minutes The underlying idea, and I\
+won't go into this, there's \
+ about 30 to 40 years of\
+research in psychology on \
+ vignettes. So these vignettes\
+are these relatively short \
+ stories, similar to the\
+one that you've seen. But \
+ usually the way how they've\
+been used was to have \
+ researchers interview a bunch\
+of people and then make this \
+ story as if it was coming\
+from a participant and then \
+ sharing out the same story\
+with dozens of other research \
+ participants as a way of\
+engaging them with the \
+ same content. So the idea was\
+that researchers were using \
+ vignettes as storytelling\
+device, right? It was a \
+ way of saying, well, imagine\
+you're in this situation \
+ that another student has\
+done this and this and this \
+ and this as their part of\
+preparation for an exam, how \
+ would you approach their\
+situation if you were in their \
+ shoes, right? That's how\
+vignettes have been used. \
+ And what we said was,\
+well, it's interesting. \
+ Now that we have generative\
+AI, can we enable \
+ participants to make\
+these vignettes so that we \
+ use that same idea, but\
+swap it around, where \
+ the participants are\
+using the same technique \
+ and we enable storytelling from \
+ participants to researchers? \
+ So, again, jumping ahead\
+really fast, but based \
+ on these ideas, and\
+based on the way in which \
+ those ideas then shaped\
+the brief that we \
+ were trying to build, we\
+started prototyping and \
+ thinking about, well,\
+how could we fix this? \
+ Okay, so I'll jump ahead\
+and not really talk too \
+ much about the prototyping,\
+but really describe \
+ the final product. What\
+did we end up doing? \
+ The underlying system\
+ended up being incredibly \
+ simple. It was just three\
+sequential calls to an LLM \
+ that had been scoped in\
+interesting ways, and controlled \
+ with a traditional state\
+-based finite machine. \
+ So very, very simple. \
+ What did it end up looking\
+like for the participants? \
+ So there are kind\
+of three parts, \
+ some of which are seen\
+by participants, some of \
+ which aren't. So as a\
+participant, you would get this \
+ conversation, so you\
+would be asked a couple of \
+ questions, and you'll see\
+that those have been more \
+ or less pre-specified,\
+but the LLMs allow you to \
+ embed those questions\
+in interesting ways. You \
+ would answer potentially\
+with just a couple of words, \
+ you didn't have to even\
+use the full sentences. \
+ Then the second stage\
+would extract your answers. \
+ So that's if you think\
+about the abstraction. \
+ It's about being able to\
+extract the right level of \
+ information that people\
+have said and do that within \
+ their actual words. And\
+then we used another piece \
+ which combined the extraction\
+into a story. And the \
+ idea here is that if we\
+have the right questions, \
+ that's what creates the template\
+for a vignette, template \
+ for a story. and even if you\
+then have these relatively \
+ small skeleton hunters\
+you can use these as the \
+ core pieces of the story and\
+then the other one can just \
+ finish the connective\
+tissue. So it's the same idea \
+ of if I'm asking you to create\
+a fairy tale for example \
+ I will say well who's the\
+hero or heroine where do \
+ they come from what are they\
+trying to do are they trying \
+ to get married or Are they\
+trying to fight an enemy? \
+ Who the enemy is? What\
+is the most problematic \
+ thing that happens to\
+them? How do they resolve \
+ it? And how does the story\
+end? If I have answers \
+ to these kind of\
+individual small questions, \
+ I can create something that \
+ will look like a fairytale. \
+ So this is exactly the\
+same idea we used here. \
+ So if we step through\
+this, there's some notion \
+ of we're delegating\
+cognition and scaffolding \
+ and thinking about how\
+to design things in \
+ ways that make it\
+simpler for participants. \
+ But again, I won't go into\
+this in detail in this \
+ video. But the first idea\
+was, well, people might not \
+ know what to focus on. So\
+we're going to provide this \
+ template, right? In the\
+same way as if you use the \
+ fairytale story again,\
+it's easier to answer these \
+ questions. Who's your hero?\
+where did he come from? What \
+ is their goal? What's the\
+worst thing that will happen \
+ to them? What's the biggest\
+risk that they have to \
+ take? How do they resolve it?\
+And so on. These questions \
+ are something you can\
+answer kind of one by one. \
+ And you've built\
+the story, but you \
+ don't have to think\
+about it. So that \
+ same idea is what\
+we've done here. \
+ The specific questions\
+in the case of \
+ social media were,\
+well, what happened \
+ specifically? What was\
+set, posted or done? \
+ That seems easy for people\
+to answer. Once they've \
+ answered it, well, what's\
+the context? What else do \
+ we need to know about that\
+situation? How did that \
+ make you feel? How did you\
+react? What was the worst \
+ part of the situation? And\
+our idea was, well, if we \
+Timestamp 29 minutes have answers to all these,\
+we kind of have all we \
+ need and we just need to\
+craft it into this little \
+ narrative, into this story\
+that people can react to. \
+ So we had a single component\
+that just went and asked \
+ those questions with a little\
+bit of scaffolding around \
+ them. And it seemed easy\
+for participants to answer. \
+ So what was the next step?\
+We now have a dialogue \
+ that has answers. We're\
+talking young people. Those \
+ answers probably won't be\
+full sentences. So we want to \
+ extract the exact words,\
+kind of the core of what \
+ their answer was to each of\
+those questions. And again, \
+ that's relatively simple.\
+We can trust the LLMs to \
+ do that reasonably\
+consistently, and we can also \
+ control the level of detail,\
+so this abstraction of how \
+ much information we need\
+to do, we need to collect. \
+ The third piece was that\
+now we have that data \
+ extracted, we want to craft\
+it into a story, right? So \
+ it's the same idea of I have\
+the four or five elements \
+ of what makes a fairy\
+tale, now I need to build a \
+ fairy tale around it. I\
+could build a big one, I \
+ could build a little one,\
+but in our case we were \
+ really trying to take answers\
+to those four questions, \
+ put them one after another,\
+and then ask the LLM \
+ to craft and add\
+anything they needed into \
+ just making it sound like\
+a story. But we knew that \
+ it could be a story\
+because of the way how \
+ we've crafted those\
+questions and that template. \
+ What we also wanted to\
+do, and this is a design \
+ choice, we didn't want the\
+participant to see just one \
+ story that were created\
+out of their data, because \
+ that would mean that they're\
+more likely to accept \
+ it. So we wanted to show\
+them three different stories \
+ that were all created\
+with a different emotional \
+ tone. So the idea of these\
+personas that you can kind \
+ of see here was that you,\
+as a participant, would \
+ get the three stories, each\
+of which contains exactly \
+ your words, but the tone\
+of them might be slightly \
+ different. So it could\
+be coming from a teacher, \
+ or it could be coming from\
+a friend or it could be \
+ coming from someone who's\
+slightly younger than you. \
+ And then the final piece\
+was we asked participants \
+ to review these three stories\
+and to select one that \
+ they like and then adapt\
+it. So the idea was, hey, \
+ here are three things that\
+are more or less probably \
+ close to what you wanted\
+to say, but they're not \
+ going to be exact. Pick\
+the one that's closest to \
+ what you're trying to say\
+and then adapt it so it's \
+ actually really what you're\
+trying to do something. \
+ And again, that seemed\
+relatively simple for \
+ participants and also relatively\
+simple to do with LLMS. \
+ So the idea behind all\
+this was that it was very \
+ easy to adapt because all\
+of what you need to change, \
+ if you want to not ask\
+about social media, but you \
+ want to ask about their\
+favorite fairy tale, you just \
+ change the template and\
+you change the personas. \
+ Everything else in the system\
+stays exactly the same. \
+ So the idea now is that\
+all you need is this \
+ little config that allows\
+you to specify what \
+ are the questions and\
+all of a sudden the tool \
+ can not just be used\
+for social media context \
+ but it can be used for\
+many other situations. \
+ So we now built something,\
+we were thinking \
+ how clever we are,\
+this is amazing, we \
+ have a prototype, it\
+seems to work for us. \
+ But we needed to test\
+it. So what did we do? \
+ We ran a mixed methods\
+experimental study. So \
+ what we've essentially\
+tried to do was we got \
+ 250 young people on a\
+platform called Prolific \
+ to engage with two types\
+of story generations each. \
+ And we'll talk a little\
+bit more about this in week \
+ seven, I believe, when we\
+talk about evaluation. But \
+ the general idea was that\
+we really wanted to see and \
+ contrast what happens when\
+we ask a young person to \
+ do the same thing with an\
+open text survey, so just \
+ the traditional model that\
+you might get in your exam \
+Timestamp 33 minutes or, sorry, in your\
+evaluation of courses, please \
+ provide more details about\
+what you liked or disliked \
+ about this course, so that\
+kind of open text survey, \
+ or the system that we've\
+designed for people here. \
+ And we did it in a reasonably\
+clever way. This was run \
+ with Stanford. So we did\
+it in a way where we could \
+ both do implicit comparisons.\
+So kind of between subjects \
+ where people have seen\
+either only the bots or only \
+ the forum, and we could\
+compare it there. But we could \
+ also compare within\
+subjects. So both each of the \
+ people have ended up\
+experiencing both of those things \
+ in the end, so we could ask\
+them which one they preferred. \
+ So we had both this kind\
+of independent measures \
+ of how useful or unuseful\
+these things were, but then \
+ also we had preferences\
+metrics that were interesting. \
+ So what did we find out? \
+ It turned out that whatever\
+we measured, the system \
+ we've design was just so much\
+better than the open text \
+ form. I won't go through all\
+the details, feel free to \
+ stop the video if you're\
+interested. But what was \
+ really interesting for us was\
+really this notion of people \
+ were talking about how\
+it was more helpful for \
+ articulating their experience,\
+that it might have been less \
+ difficult to respond to, as\
+well as some of the other \
+ aspects that I'm\
+pointing out here. \
+ We also, since we've\
+collected an actual dataset, \
+ this is again done with\
+Cambridge, where we have now \
+ 900 stories of young people\
+across US and UK about the \
+ biggest challenges that\
+they face. The reason why \
+ I'm including this slide is\
+also because we then asked \
+ young people to tell us\
+about their value. And \
+ remember, these were young\
+people who were essentially \
+ hired to go and do this\
+three-minute text survey, so \
+Timestamp 35 minutes they really shouldn't have\
+found it helpful. But what's \
+ interesting, if you pause\
+the video, you can look \
+ at how big percentages of\
+people were reporting that \
+ the experience was not just\
+a thing they did for money, \
+ but it seemed to have been\
+interesting and helpful, \
+ and there's some interesting\
+thoughts behind why \
+ that might be the case and\
+there's a series of studies \
+ that we can talk about um\
+in in the actual lecture \
+ that why we think this is\
+the case so just just to \
+ wrap up the the broader\
+implications of this were \
+ that we started with a problem\
+that was our own little \
+ problem we needed to\
+understand what young people \
+ think about social media\
+but then we've ended up \
+ building a system that\
+addresses is a much bigger \
+ question of these collecting\
+rich qualitative narratives \
+ at scale, this idea of\
+how do you make a good \
+ design that would reduce\
+the burden for participants. \
+ And we've made it into\
+something that's quite simple \
+ to adapt. And we now have\
+a lot of interest in the \
+ data collection and\
+interventions. This is the slide \
+ from last year. So the\
+numbers would, sorry, the \
+ little logos would be much\
+more multiplied by now. But \
+ even within those 12 weeks,\
+we've had so much interest \
+ from a lot of people,\
+which often suggests in \
+ design that you've actually\
+had something that's \
+ important where there's\
+need and where people need a \
+ solution and they don't have\
+a good solution right now. \
+ I wanted to pull out\
+this blog one more time, \
+ because I think the example\
+that we've just gone \
+ through is a good\
+illustration of what it \
+ means to work with AI as\
+design materials. And if \
+ you were to read the\
+underlying paper, or I'm \
+ happy to talk about it\
+when we meet in person, \
+ again, the idea is that\
+we've really worked with AI \
+ as a material. We've\
+deliberately made choices about \
+ the ways in which we're\
+willing to engage with it. How \
+ do we design around the\
+quirks that it has, but also \
+ how do we design around\
+the really fascinating \
+ properties that it allows\
+us to do now. And there's a \
+ reason why no one's done that\
+kind of tool ever before, \
+ which is, it just wasn't\
+possible a year or two \
+ ago. So I think it\
+illustrates both this \
+ particular, the ideas from\
+this particular blog, but \
+ also the excitement and\
+opportunities that lie \
+ around human AI\
+collaboration space, which is \
+ perhaps why you're here\
+with us in this course. \
+ So as the very, very last\
+part, I just wanted to \
+ highlight this article\
+and TED Talk that you have \
+ available on Keats and that\
+I'd really encourage you to \
+ read and watch. because\
+I think it's coming from \
+ someone who has decades of\
+experience in designing. \
+ And I think it really\
+illustrates and shows how much \
+ further you can go when\
+thinking about design than \
+ just building yet another\
+app that does exactly the \
+ same thing as all the other\
+apps have done before. \
+ But now it does it with a\
+slightly different shade \
+ of gray or blue or pink or\
+whichever color you like. \
+ I really like both the\
+article and the TED Talk. it's \
+ probably not going to take\
+you that long, and I hope \
+ that you'll find it really\
+interesting. So with this, \
+ and as the end of the\
+first week, thank you so \
+ much for being with us,\
+hoping that this is something \
+ that seems to be relevant\
+and interesting to \
+ what you want to do in\
+future, or what you want to \
+ learn, and let me know if\
+you have any questions. \
+ This will be a relatively\
+small class, I believe \
+ for the first year so\
+I'm really excited to \
+ meeting you all very soon\
+all right see you soon bye }

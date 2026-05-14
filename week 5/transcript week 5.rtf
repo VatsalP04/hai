@@ -1,0 +1,963 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww38200\viewh19980\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Timestamp 0 Hi everyone, so welcome to this \
+ week of the Human\
+-Centered AI class. \
+ Today is the second week\
+where we're going to \
+ talk about Human-Centered\
+AI as a design process. \
+ And specifically today\
+we're going to focus \
+ on prototyping Human\
+-Centered AI systems. \
+ To give you a bit of an\
+overview, the purpose of this \
+ week is to give you the\
+basic resources so you can \
+ explore a prototyping method\
+of your choice. So it's going \
+ to be quite a short video,\
+unlike last week. Today \
+ is going to be quite a short\
+video because when it comes \
+ to prototyping, doing is\
+the best kind of thinking. \
+ And the main aim, basically,\
+is to help you understand \
+ why we prototype and what\
+are the key principles. \
+ So specifically, we're\
+going to have this lecture \
+ is going to be, has three\
+learning goals divided \
+ in three parts, more or\
+less. The first one where \
+ we're going to understand\
+the basic goal of \
+ prototyping, which is about\
+maximizing the rate of \
+ learning by minimizing the\
+time to try out new ideas. \
+ We're going to learn\
+some conceptual ideas in \
+ prototyping, like the purpose\
+of prototypes, shallow, \
+ deep, low fidelity, high\
+fidelity ones, and Wizard of \
+ Oz approaches. And then\
+I'm going to present to you \
+ some examples of AI-specific\
+prototyping techniques, \
+ like Wizard of Oz is one\
+of those, for example. \
+ so coming back to the last\
+week when we talked about \
+ designing human AI systems\
+as a process, I showed you \
+ this kind of diagram of the\
+double diamond. We talked \
+ last week about discovering\
+requirements and \
+ empathizing with our users\
+to defining problems that are \
+ meaningful to solve. This\
+week we are on the actual \
+ second diamond where we're\
+talking about developing. \
+ Developing and delivering\
+solutions which \
+ we're going to keep on\
+testing iteratively. \
+ In the other diagrams that\
+you were introduced to \
+ is the phases unsurprisingly\
+called prototyping \
+ and testing. We're going\
+to talk about these two, \
+ one this week and one next\
+week. Here we're talking \
+ about developing and here is\
+the sketching, deciding and \
+ prototyping parts of Google's\
+design sprint process. \
+ Okay, but first, you\
+might all have an \
+ intuitive idea of what\
+a prototype is or isn't, \
+ but I think it might\
+be good to define \
+ what it is using the\
+handbook of the HCI. \
+ so what are prototypes\
+prototype is one manifestation \
+ of a design that allows\
+stakeholders so people \
+ are relevant to your\
+design to interact with it \
+ and to explore its suitability\
+it is limited that's \
+ important in that a prototype\
+will usually emphasize \
+ one set of product\
+characteristics and they \
+ emphasize others so\
+prototypes don't do absolutely \
+ everything but they\
+emphasize specific aspects of \
+ your system that you actually\
+want to test with users, \
+ for instance, or you want\
+to sketch them out by \
+ yourself to get feedback\
+from you or from others. \
+ And with this definition,\
+prototypes can be \
+ anything, as you can imagine.\
+They can be a paper-based \
+ storyboard all the way\
+through a complex system \
+ software. It can be a\
+cardboard mock-up or a \
+ pressed piece of metal\
+if we're talking about \
+ physical things. And the\
+purpose here of prototypes \
+ is to help users envision\
+the important things of \
+ interactions with these\
+newly designed systems. \
+ So again, these are early\
+models of interaction. \
+ They're not full\
+implementations. They focus \
+ experience on experience\
+over the algorithm, \
+ for instance, in the\
+early stages. And they're \
+ useful for iteration,\
+validation, as well as user \
+ testing that we're going\
+to discuss as well. \
+ And they're very closely\
+related to how you can \
+Timestamp 4 minutes include users in your\
+design process. So the \
+ things we were talking\
+about last week, very \
+ often we use prototypes\
+as probes, for instance, \
+ to give them to users to\
+give you feedback on your \
+ idea, not necessarily\
+to give you feedback on \
+ very minuscule parts of\
+the idea, but on the whole \
+ kind of problem that the\
+users might be facing. \
+ So why prototype? Prototypes\
+can help you think through \
+ and understand the possibilities\
+of your design space \
+ and they help you attest\
+assumptions about your user, \
+ their experience or even\
+if the technologies that \
+ you're considering are\
+actually viable. So this is \
+ actually quite crucial here.\
+first because they're about \
+ yourself so when you start\
+prototyping you can actually \
+ test your own ideas and\
+think through what you have \
+ been discussing or thinking\
+about doing and the second \
+ part is you can also they're\
+very social sociable in \
+ the sense that you can use\
+them to to ask other users \
+ or other people around you\
+feedback on the ideas that \
+ you have might have only\
+had in your mind until then. \
+ Now specifically when we're \
+ talking about\
+human-centered AI, \
+ why would you choose to\
+prototype? So you might want \
+ to make sure that you want\
+to be able to align the \
+ system behavior with the\
+user expectations, which is \
+ quite obvious and it's\
+also something that we have \
+ discussed last week. You\
+might want to catch usability \
+ issues early, so you make\
+kind of mismatches and \
+ mental models you might\
+have discussed that might be \
+ something you might be\
+easily to find through \
+ prototypes and you might also\
+want to explore ethical trust \
+ and explainability concerns\
+before implementation \
+ and that crucially comes\
+back to this type of \
+ prototyping where it would\
+be more critical design or \
+ speculative prototyping\
+which we can discuss a little \
+ bit as well so when we talk\
+about traditional AI if \
+ you want to kind of compare\
+this like how you've been \
+Timestamp 6 minutes doing things potentially\
+until now and how will you \
+ make your process more\
+user centric centered like \
+ your traditional ai might be\
+model centric whereas your \
+ human centered would be\
+human centric a bit obvious \
+ in the traditional ai\
+you might be putting your \
+ data first like you have a\
+large data so you might be \
+ working from the assumption\
+that it's a useful \
+ one whereas in human\
+centered ai you would \
+ want to see what are the\
+needs of the people that \
+ and then you would go\
+find the data for that \
+ Traditionally, AI would be\
+evaluated by accuracy of \
+ your model, for instance,\
+whereas in human-centered \
+ AI, you might evaluate by\
+usability, how usable the \
+ results are, the models are,\
+the results, how trustworthy \
+ they are, or how fair, and\
+other topics like this, \
+ which we will discuss in\
+the upcoming weeks as well. \
+ now to come a little bit\
+into some uh terminology to \
+ help us all communicate in\
+the same way they're uh more \
+ or less like prototypes are\
+usually divided into two \
+ types of prototypes these\
+are the most common kind of \
+ division you would talk\
+about when you talk about \
+ prototyping which would be\
+low and high fidelity ones so \
+ low fidelity prototypes are\
+they have some advantages \
+ and disadvantages, both of\
+them, right? So low-fidelity \
+ prototypes would have lower\
+development costs, would \
+ be easier to evaluate multiple\
+concepts very quickly. \
+ They're less constrained,\
+so they're more \
+ conceptual rather than\
+actually the nitty \
+ -gritty of the\
+implementation. And they \
+ explore high-level\
+design layout options. \
+ But at the same time,\
+there's not really a \
+ possibility for error\
+checking. There is little \
+ detail. They cannot\
+necessarily test dynamic \
+ layout although that's\
+changing with some \
+ of the tools i'm going\
+to introduce to you \
+ where and these are\
+things like i'm going to \
+ discuss give you some\
+examples of low fidelity \
+ prototypes but these\
+are things like paper \
+ prototypes or mock-ups are\
+low fidelity prototypes \
+Timestamp 8 minutes whereas high fidelity\
+prototypes are at least \
+ partially functional\
+they're often interactive \
+ they have like a content\
+like effective preview \
+ of the layout you the\
+look and feel resembles \
+ that of the final product,\
+even though it might \
+ not be the actual final\
+one you might be giving. \
+ And it's often used\
+as a marketing or \
+ sales tool where\
+you want to kind \
+ of introduce it to\
+potential clients. \
+ The disadvantages of high\
+fidelity prototypes, however, \
+ is that, as you can imagine,\
+it takes kind of time \
+ and resource intensive to\
+develop them. It's much \
+ faster to sketch out some\
+boxes rather than to design \
+ a proper layout. They're\
+not really effective for \
+ requirements gathering in the\
+early stage of ideation and \
+ they may confuse stakeholders\
+or your users, potential \
+ users that you're testing\
+them with or you're \
+ showing them to, that this\
+is how your final prototype \
+ would look like, what the\
+final product would look like, \
+ rather than allowing them\
+to imagine it as a prototype \
+ that they can actually\
+engage and critique with. \
+ so looking a little bit on\
+the level of fidelity as \
+ we were talking about you\
+might have sketches ideas \
+ and this is a really interesting\
+diagram right because \
+ it shows you if you see\
+here you have on the on \
+ the bottom you have\
+different types of prototypes \
+ and what they communicate\
+so sketches wireframes a \
+ prototype as you an interactive\
+one as you would say \
+ here or the final design\
+and then on the top on the y \
+ -axis you have the commitment\
+and level of fidelity \
+ so when you make a sketch\
+you it has kind of low \
+ commitment in the sense that\
+you don't mind to it took \
+ you five minutes to make\
+or three minutes to draw so \
+ it's very easy to just\
+throw it away and make a new \
+ one or make a series of\
+sketches to be able to kind \
+ of explain the possibilities\
+that you might have so \
+ this is a good way to communicate\
+ideas or possibilities \
+ that you are able to\
+pursue because it has kind \
+ of low commitment and you\
+can iterate on that quite \
+ quite easily you can make\
+wireframes as the next \
+ stage where this would\
+be good for concept \
+ validation where let's say\
+you have some idea of an \
+ app you want to create\
+with a AI messaging \
+ function, for instance,\
+then you can easily create \
+ the structure and the\
+overall flow of how your \
+ app might work. And that\
+would allow you to also \
+ do quite quick iterations.\
+So it's also, again, \
+ quite low commitment in\
+the sense that you can \
+ draw something like that\
+quite quickly and then \
+ show it to people to get\
+feedback on the concept. \
+ When you start refining\
+that, you might make a high \
+ fidelity prototype this\
+is what the prototype kind \
+ of refers to here the word\
+prototype refers to here a \
+ high fidelity one where\
+you would have like the \
+ structure like you have in\
+the wire frame you would have \
+ the flow and you would\
+have some details even if \
+ the the details are not\
+like the final visual design \
+ but it might even have some\
+interactivity for instance \
+ like if you click a button\
+then something actually \
+ might a new page might\
+appear or something like this \
+ and that would be for\
+refinement, also testing some \
+ more complicated features\
+that are hard to test \
+ kind of individually. And\
+finally, like you have your \
+ final design, your fully\
+branded and fully developed \
+ product that you can, as\
+we will learn next week, \
+ you can actually do some\
+usability testing to it, \
+ where this is the final\
+actual kind of iteration where \
+ you have everything\
+fully developed and then \
+ you can actually give\
+it to people to get \
+ feedback upon and do\
+a b testing or do any \
+ kind of kind of more\
+wide scale testing or \
+ evaluation that's the\
+word i'm looking for \
+ for wide scale\
+evaluation of your design \
+ the point here of this\
+graph is that if you want to \
+ just ideate or you want\
+to test what kind of ideas \
+Timestamp 12 minutes to use the point is to\
+make sketches are actually \
+ up to wireframes you're\
+not going to make a fully \
+ -fledged interactive prototype\
+just to test an idea. \
+ So you have to think\
+about strategically what \
+ point in time are you\
+going to use what kind of \
+ prototyping or sketching\
+or wireframe technique. \
+ Okay, so let's go into this \
+ within a bit more detail now. \
+ Let's talk about low\
+-fidelity prototypes. \
+ Okay, so one type of low\
+-fidelity prototypes are \
+ wireframes. And wireframing\
+is a process where \
+ designers basically draw\
+overviews of interactive products \
+ to see the structure\
+and the flow of possible \
+ design solutions so here\
+you see an example of that \
+ in myro in a myro board\
+where the big kind of \
+ square with the x implies\
+that there is an image there \
+ and then there is some\
+text and there's a headline \
+ and then it kind of\
+tests out like draws out \
+ sketches out different\
+layouts for this i guess this \
+ is a normal website kind\
+of thing and then And you \
+ can give them to other\
+people to actually test to \
+ see what makes sense to\
+use, to get feedback from. \
+ So wireframes are primarily\
+tools for collaboration \
+ towards making\
+better prototypes and \
+ products faster. So before\
+you start drawing the \
+ actual content you're going\
+to use, you're probably \
+ going to start doing\
+something like this. \
+ And there are tools that\
+you can use to do these \
+ wireframes. this is one it's\
+quite already it's called \
+ balsamic where you have these\
+kind of little boxes and \
+ elements that you can\
+just kind of drag around \
+ and make your your your\
+page like or your app \
+ so another typical way that\
+you can prototype things \
+ low fidelity and cheap\
+and quite fast is paper \
+ prototyping as you can\
+see here you mostly have \
+ potentially wire frames or\
+even things that you have \
+ printed out um to like\
+text you have printed out \
+ and then you actually\
+you sketch out potential \
+ concepts or flows or ideas\
+on paper but then the \
+ important part here is that\
+you actually test those \
+ with your potential users\
+so your user you give this \
+ to your potential user\
+and then you ask them to \
+ give you feedback about\
+how does that seem to them \
+ in research it's also quite \
+ typical to to see these kind of \
+ fake cardboard ipads or\
+tablets or or phones where you \
+ would kind of insert these\
+paper prototypes and you \
+ would allow user to to\
+play with them in a way and \
+ it's one might ask like why\
+would you do this in paper \
+ because it comes closer to\
+the experience of what the \
+ the participant might be\
+doing so if you have it in \
+ a in a way that they are\
+familiar with like the way \
+ that they might be end up\
+using it in reality also then \
+ it's more chance that the\
+feedback that you're going \
+ to get is more authentic\
+and also because it looks \
+ so low stakes like it's\
+just hand drawn with pens or \
+ printed out quickly with\
+cheap paper then research has \
+ shown that there's more\
+chance that your users you're \
+ you're testing with that\
+they feel like they have \
+ more agency to change or\
+to comment or to critique \
+ these ideas because they're\
+obviously not fully fledged \
+ in this project and nowadays\
+it's kind of more common \
+ to do these kinds of prototypes\
+digitally just because \
+ it takes it would take the\
+similarly amount of time \
+ to similar amount of time\
+to to draw and cut out and \
+ create these paper paper\
+prototypes than to create three \
+ four frames in Miro and\
+put some blocks there that \
+ connect we also have for\
+for these kind of low-stake \
+ prototyping you can use Miro\
+for wireframes but we're also \
+ going to be talking about\
+Figma for for having some \
+ fast interactions so what you\
+also have are click-through \
+ prototypes as I mentioned\
+before even though paper \
+ prototyping can be very\
+powerful nowadays there are \
+ also other ways to do quite\
+fast prototypes that are easy \
+ low stakes prototypes that\
+you can test with users \
+ so like click through\
+prototypes with platforms like \
+ figma or azure or balsamic\
+as we talked about but we're \
+ going to talk about figma\
+in specific so you see here \
+ what a quite easy it\
+doesn't require really much \
+ programming It's just you\
+connect these little arrows to \
+ different frames and you can\
+actually make a prototype. \
+ So for instance, \
+ you can have boxes, \
+ like you create boxes\
+like this and with \
+ a simulating button.\
+So you can see it's \
+ very, very simple.\
+It's very low fidelity. \
+ And by connecting it to\
+and clicking through the \
+ interaction details in the\
+prototype phase, then you can \
+ quickly make a prototype\
+like what you see on the \
+ on the right where you\
+press this button that this \
+ button and it comes on the\
+screen becomes all blue and \
+ you press the red button\
+and the screen becomes all \
+ red so the the point\
+here being i just want to \
+ demonstrate that uh figma is\
+quite fast and figma and other \
+ tools nowadays are quite\
+fast and quite easy to to \
+ generate interactive prototypes\
+that you can literally \
+ test on your mobile on\
+your screen so also on your \
+ mobile devices because\
+they're apps that you can \
+ actually simulate that and\
+you can evaluate your ideas \
+ quite quickly and you can\
+just draw very low level \
+ boxes like wireframe style\
+to to express your ideas \
+ so let's talk a little\
+bit about high fidelity \
+ prototypes so as we said\
+high fidelity prototypes are \
+ something you would do\
+later on you would probably \
+ start with something low\
+fidelity you would prototype \
+ your ideas you would try\
+to test your assumptions \
+ quite quickly and you would\
+find specific assumptions \
+ to test you would make\
+something you would show it \
+ you You would use maybe\
+Wizard of Oz or you would use \
+ like click through\
+prototypes and then once you \
+ have a clearer idea of what\
+you want to create, then \
+ you will create more high\
+fidelity prototypes and \
+ then there are two types of\
+high fidelity prototypes. \
+ You can do vertical\
+prototyping or horizontal \
+ prototyping and that's a\
+little bit about the approach \
+ you're taking. So with\
+vertical prototyping, \
+ you are basically focusing\
+whatever is here as \
+ a plus is fully implemented\
+and whatever is X \
+ is not implemented. So you\
+see the visual language \
+ here. So we're talking\
+about the vertical \
+ prototyping where only a\
+few unselected functions \
+ are actually being\
+implemented so that you can \
+ see quite realistic\
+tasks. So, for instance, \
+ if you are testing a new\
+messaging app, perhaps the \
+ messaging function works\
+perfectly, but everything \
+ else, messaging between\
+friends works perfectly, but \
+ everything else is kind\
+of not really implemented \
+ because it's beyond the\
+point. You want to test the \
+ specific function of that,\
+of that specific feature. \
+ horizontal prototyping on\
+the other hand is when you \
+ are all the visual parts\
+of the user interface of an \
+ application or a computer\
+system are actually implemented \
+ but they're all they're\
+quite partially implemented \
+ they they might be shallow\
+like they might no data \
+ might be processed for\
+instance so in the in the \
+ example of the of the\
+messaging app perhaps all the \
+ interface you see you can add\
+friends you can you can click \
+ through all the different\
+buttons you see on your \
+ high fidelity screen but\
+nothing gets saved or no real \
+ message gets sent at that\
+moment so you're you're \
+ basically testing different\
+things in this case so coming \
+ back to click-through\
+prototypes like figma is \
+ something that you will use\
+quite a lot for your high \
+ fidelity prototypes So we\
+suggest that you start with Miro \
+ to do your wireframes\
+and then perhaps do small \
+ prototypes, interactive ones\
+in Figma to test some quick \
+ assumptions. And then in\
+the end you're going to have \
+ a more complex Figma file\
+with, as you can see, it \
+ can become quite intense in\
+terms of interactions and \
+ buttons and all the\
+possibilities that you can have. \
+ Finally, something we\
+haven't touched upon \
+ but is actually also\
+quite fundamental in human \
+ -computer interaction\
+is physical computing. \
+ So there are quite a few\
+platforms out there like \
+ Arduinos, Raspberry\
+Pis, 3D printing, laser \
+ cutting. there are quite a\
+lot of techniques now for \
+ quickly creating form,\
+prototypes that need, \
+ that are three-dimensional,\
+or that are interactive \
+ in another way, with\
+electronics for instance, \
+ and this is a whole kind\
+of research domain in \
+ human-computer interaction,\
+that includes also \
+ different types of\
+expertise than the digital \
+ applications that we are\
+working on right now. \
+ So here you see some examples\
+on the top left of an \
+ Arduino that is actually\
+being prototyped to make a \
+ stopwatch. I think in this\
+case it was prototyping a game. \
+ on the bottom you see\
+how exoskeleton might be \
+ prototyped we're using 3d\
+printing on the on the laser \
+ you see with the hexagons\
+is actually a laser \
+ cutter that you can really\
+quickly cut wood or vinyl \
+ or not vinyl sorry wood\
+or acrylic or other types \
+ of materials that you\
+can make quick and dirty \
+ prototypes like the ones\
+you see on top which is \
+ actually an interactive\
+lamp and physical computing \
+ also allows for for things\
+like tangible interfaces \
+ and and like for museums or \
+ for other settings like that \
+ another very um useful\
+tool for for low fidelity \
+ prototyping is this is kind\
+of related to low fidelity \
+ prototyping because it has\
+to do with the evaluation of \
+ prototypes is wizard of oz\
+prototyping and the wizard \
+ of oz prototyping refers\
+to the the wizard of oz uh \
+ film where for those of\
+you who who might have not \
+ seen it there is this um\
+seemingly powerful wizard that \
+ knows everything and\
+commands everyone whereas in \
+Timestamp 24 minutes fact they find out that\
+it's just a person behind a \
+ behind a curtain kind of\
+manipulating the scenes and \
+ making it seem like it's a\
+wizard a powerful wizard so \
+ they take this analogy of\
+the metaphor of you you make \
+ something seem as it's\
+more complicated than it \
+ actually is in reality and\
+we use that in technology so \
+ this was the user wizard\
+of testing for instance in \
+ ibm when they were testing\
+out the listening typewriter \
+ which is really interesting\
+if you think about where \
+ we are right now in terms\
+of technology this is from \
+ 1984 so they wanted to\
+understand the experience of \
+ being able to do speech to\
+text systems so they had \
+ a person in one room and\
+they had a screen and they \
+ were given a screen and a\
+microphone and they were told \
+ that if you speak into that\
+microphone then that the \
+ computer will magically\
+or anyway would kind of \
+ transcribe the speech into\
+text and you would see that on \
+ your computer so they wanted\
+to test that experience \
+ if it would make sense to\
+do and but in reality they \
+ didn't have the technology\
+to be able to do that \
+ so the wizard of oz did\
+the wizard in this case was \
+ another person behind the\
+scenes in another room \
+ that was actually typing\
+out what they were hearing \
+ from the um what they were\
+hearing from the microphone \
+ so the point here is\
+that this is much lower \
+ stakes this is low fidelity\
+prototyping you can very \
+ quickly test out ideas\
+that you might either not \
+ have the technology for at\
+the moment or the technology \
+ might be to might take\
+some effort or some time \
+ so much effort to make\
+that you want to test the \
+ experience of it before you\
+actually implement it So \
+Timestamp 26 minutes a lot of this literature\
+on prototyping comes \
+ from human-computer\
+interaction, but in this \
+ case, in this lecture,\
+we want to look at how we \
+ can prototype specifically\
+AI kind of systems. \
+ So we can use the\
+same methods, and I \
+ have some examples\
+here, for instance. \
+ So if you have like an AI\
+use case of a recommender \
+ system, then you can actually\
+make a mock interface \
+ with Figma or even with\
+paper if you want to, \
+ with fake suggestions\
+and then give \
+ that to the participants\
+and your users \
+ and kind of see\
+how they respond. \
+ If you want to have a use\
+case, if you have a use case \
+ of AI where they were\
+talking about a chatbot or \
+ some kind of LLM, for\
+instance, then something before \
+ you even try fine tuning or\
+training it, then you can \
+ actually do a Wizard of Oz\
+with scripted responses and \
+ see how they respond how\
+people respond to it and \
+ that would be especially the\
+case for like niche domains \
+ like for instance for a\
+nursing AI app or a chatbot \
+ or some kind of agent in\
+a hotel for instance and \
+ then it will make more sense\
+to do it first with the \
+ robots than actually building\
+the model and then another \
+ use case might be having\
+a classifier UI where here \
+ you might prototype it by\
+adding kind of confidence \
+ bars or explanation cards\
+to actually give like some \
+ background information\
+to participants about \
+ how how they how the\
+system works for instance \
+ so there are two main things\
+to remember when we're \
+ thinking about how to decide\
+the prototype like each \
+ prototype you create you\
+have to remember what \
+ our assumptions are your\
+prototype testing and what \
+ does this mean for how and\
+why you prototype so you're \
+Timestamp 28 minutes not gonna prototype in\
+the same way every single \
+ system you're gonna choose\
+sometimes low fidelity \
+ sometimes deep prototype\
+sometimes shallow prototypes \
+ and you're gonna kind of\
+decide which ones are more \
+ relevant to your context\
+depending on the assumptions \
+ that you're trying to\
+test so with a chatbot \
+ you might want to test the\
+interaction or the fact \
+ that do you want to personalize\
+it or do you want to \
+ have like a human-like\
+agent talking and then you \
+ would test it in that\
+way for instance you will \
+ prototype it with different\
+types of characters so yeah \
+ remember that when you're\
+working on your projects }

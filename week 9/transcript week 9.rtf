@@ -1,0 +1,1890 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0  Hi everyone and welcome to\
+the lecture on evaluation \
+ for the first one of the\
+two weeks of lectures \
+ that will look at different\
+kinds of evaluations. \
+ So how can we make\
+sure that our systems \
+ are doing what we\
+want to be doing? \
+ So, so far within\
+the lectures as well \
+ as the SGTs and LGTs\
+we've been going \
+ through this double\
+diamond process. \
+ starting with just trying to\
+understand what the problem \
+ is what the users think\
+then defining it down to a \
+ specific design brief and\
+then more recently really \
+ starting to ideate and play\
+and prototype with some of \
+ the examples now we're coming\
+to the end of of the double \
+ diamond where we might be\
+starting to look at how do \
+ we test how do we evaluate\
+whether the prototypes that \
+ you've built are actually\
+useful and you'll see that \
+ these arrows that kind of\
+go back into you test and \
+ then you usually come back\
+to ideate, then you have to \
+ re-prolotype because\
+you've discovered something \
+ interesting. I expect that that\
+is what's going to be happening \
+ as well. So it's not, as\
+always, it's not a linear \
+ process. It's something\
+where you might cycle through \
+ individual places or maybe\
+even go back to redefining \
+ your problem, although\
+that's probably not going \
+ to happen for you within\
+the context of this course. \
+ So as I said, this is the\
+first of the two weeks \
+ where we will be looking at\
+different kinds of evaluation \
+ techniques that you could\
+use for your designs. \
+ And the general approach\
+that we will want you to use \
+ as always is that really\
+evaluation methods should be \
+ thought about as a set of\
+tools that you have at your \
+ disposal and which one you\
+choose is really dependent \
+ on the kind of questions\
+or assumptions that you're \
+ trying to solve. So we'll be\
+talking about how different \
+ methods might look depending\
+on your stage of the \
+ design or the types of\
+questions that you're asking so \
+ across all of these you might\
+be asking why to do evaluation \
+ testing it's very much to\
+check that the specific \
+ aspects of user experience\
+that you're interested in \
+ are considered in the design\
+and are implemented well \
+ in the design you might be\
+testing your conceptual models \
+ you might be testing some\
+of early prototypes you \
+ might be trying to compare\
+your system to other products \
+ or just double check if\
+it actually does the work \
+ that you want it to do so\
+does it increase critical \
+ thinking when people use\
+it for example there's some \
+ variation around where you\
+look at it it might be natural \
+ settings so meaning you would\
+deploy as part of a class \
+ maybe next year's class you\
+might be exploring it in \
+ the wild as in you just\
+open it up on on amazon or \
+ apple and you will see how\
+people use your app. You might \
+ be thinking about labs or\
+specific lab arrangements. \
+ And also you might be\
+thinking about when \
+ throughout the design you\
+deploy that testing. And \
+ we've already done that,\
+as you might remember, \
+ a couple of times\
+throughout the LGTs, where \
+ we've asked you to explain\
+what you've done to \
+ other people. That has\
+been part of evaluation, \
+ although a very informal\
+and interesting one. \
+ So in the next couple of\
+minutes we will go through \
+ this idea of how does a\
+map look like of the types \
+ of methods that you might\
+want to know about and \
+ that you might want to be\
+using. Each of these has \
+ a specific purpose, they\
+might be used in specific \
+ situations and we'll talk\
+a little bit about what \
+ that looks like and how do\
+you make sense of this map. \
+ We will however focus\
+only on a few of these \
+ methods in detail just\
+because we don't have time and \
+ I don't want to turn this\
+into another two-hour video \
+ with a bunch of reading\
+theory on the side. So \
+ what are the kinds of methods\
+that we could look at? \
+ So one potential way of\
+starting to map out how these \
+ tools look like, how your\
+evaluation tools look \
+ like, is to thinking about\
+whether or not you involve \
+ your target users. So in\
+your case probably students \
+ who are engaging with\
+critical thinking for example. \
+ One option is to think\
+about approaches that \
+ involve experts which\
+might be easier to get or \
+ you might rely on a\
+lot of expertise that \
+ they might be bringing.\
+The other big type of \
+ studies is the studies\
+that actually do involve \
+ your target population\
+in one way or another. \
+ So just to build up your\
+vocabulary some of the methods \
+ that include experts are\
+based around heuristics \
+ evaluation. So you might be\
+thinking back to Nielsen's 10 \
+ heuristics and kind of thinking\
+about how you get experts \
+ to engage with your\
+system according to these \
+ heuristics. And that's something\
+we'll talk about a little \
+ bit later. You might have\
+some models about how your \
+ system should behave, and\
+then you could be running \
+ evaluations against that. You\
+might be analyzing what the \
+ system does. You're not\
+really involving the users, \
+ but you're analyzing the traces\
+of what the users do that \
+ helps you understand and\
+then I think cognitive \
+ walkthrough we've mentioned\
+earlier in the course where you \
+ would have a specific way\
+of getting an expert to step \
+ through the the process\
+of your system and you're \
+ again trying to understand\
+how and when and where your \
+ design potentially breaks on\
+the other hand when you have \
+ users the useful differentiation\
+is around where and \
+ how you engagement so this\
+could be in the lab or any \
+ sort of controlled setting\
+where you'll be asking users \
+ to do things that they might\
+not be doing naturally. \
+ So you're asking them to do\
+controlled tasks and then \
+ perhaps observe differences\
+between how they engage \
+ with these specifically\
+defined tasks or the tools that \
+ you provide them. You could\
+think about deploying these \
+ in the field, so that means\
+deploying your prototypes \
+ in a relatively messy real\
+-world context where they \
+ would end up being used. So\
+in your case, it would be \
+ about taking a system and\
+deploying it with people who \
+ are actually trying to study\
+for an exam, for example. \
+ And finally, you\
+could also be thinking \
+ about doing living laboratories \
+Timestamp 6 minutes where you're essentially\
+putting participants into \
+ instrumented environments\
+for long periods of time, but \
+ still with some control and\
+data collection, which I \
+ think is going to be less\
+common, especially for the types \
+ of problems that we're\
+talking about. Finally, you \
+ could also obviously do\
+surveys where you, for example, \
+ try and reach out to every\
+single student within \
+ KINGS and you ask them\
+something about how they \
+ either use an existing\
+system, if you were, for \
+ example, trying to evaluate\
+how beautifully designed \
+ Keats is, or if you're\
+trying to understand \
+ something about their\
+processes and the challenges \
+ and you're trying to\
+evaluate the challenges that \
+ they face, for example,\
+with critical thinking. \
+ So, when we start thinking\
+about these in more detail, \
+ again, just to build up\
+vocabulary for you, within \
+ the lab studies, we might\
+be talking about think \
+ -aloud protocol, where you\
+get a user to go through your \
+ system and discuss how and\
+when this works. Sorry, \
+ I'm just realizing my son\
+is marginally in the way. \
+ You might also be able\
+to engage in experiments, \
+ which is something that\
+we'll spend a lot of time \
+ talking about. And you might\
+also be looking at a specific \
+ type of engagement within\
+a lab that looks at \
+ usability evaluation, where\
+you're not really interested \
+ in the effects of the\
+system, but you're really \
+ interested in understanding\
+how someone will go \
+ through the system and are\
+there any barriers to use. \
+ In terms of the field studies, \
+ there are technology probes, \
+ which we'll discuss next week. \
+ You could be looking at\
+deployment of prototypes \
+ and understanding how\
+these end up being \
+ used and appropriated,\
+as well as A-B testing, \
+ which is essentially a\
+field study experiment or \
+ a particular kind of\
+experiment that many of \
+ the big tech companies\
+are running right now. \
+ So if we put this all together,\
+you can see that really \
+ there's a large number of\
+different things, and we \
+Timestamp 8 minutes haven't, frankly, covered\
+everything, but there's a \
+ large number of different\
+tools, each of which has \
+ specific purposes and specific\
+reasons for its existence. \
+ So it answers particular\
+kinds of questions pretty \
+ well, and it also has some\
+limitations, so it doesn't \
+ answer different kinds of\
+questions at all, possibly. \
+ So what we'll be doing\
+over these two weeks is \
+ really trying to focus mostly\
+on the methods that are \
+ often done a little bit\
+earlier in the process, in the \
+ sense that they might be giving\
+you formative information \
+ whether the design is\
+on the right trajectory. \
+ So you're often using these\
+methods to sense check \
+ and observe before you might\
+commit yourself to your \
+ final push or deployment,\
+or it might be just after \
+ you've deployed and you\
+really want to understand \
+ whether the system has a\
+chance of having the effects \
+ that you want it to have.\
+So, for example, you could \
+ imagine you're designing a\
+new version of an Instagram \
+ interface or some other\
+critical thinking tool, as \
+Timestamp 9 minutes you do in your LGTs, and\
+you might do a heuristic \
+ evaluation on semi-interactive\
+sketches to just double \
+ -check whether your user\
+interface is understandable \
+ for people. Then you might\
+follow by a think-aloud \
+ prototype on a, sorry, a\
+think-aloud protocol that \
+ you would deploy on a\
+fully fledged version of a \
+ clickable prototype that\
+you've either bytecoded very \
+ quickly or you've done in\
+Envision or Figma and if \
+ everyone likes this you might\
+have a rough experimental \
+ version that you test out\
+within a lab study as a \
+ small experiment to see\
+whether the processes whether \
+ the AI scaffolding that\
+you're providing to users is \
+ working the right way and\
+potentially eventually send \
+ this out as a technology\
+probe where people actually \
+ try and use it over a\
+period of a week or two in \
+ similar ways that an MVP\
+might be used in a startup. \
+ So across all of these, as\
+you see, there are different \
+ types of questions and\
+layers of questions that \
+ get emphasised. And what\
+we'll be doing in the rest \
+ of this week is to focus\
+on about half of these \
+ methods and then fill out\
+the rest in the week after. \
+ So, by the end of the next\
+week, you should be able \
+ to start thinking about these\
+methods as being positioned \
+ across these two or three\
+different dimensions. \
+ How abstract or concrete\
+these are so are you \
+ abstracting out something\
+about an interaction that you \
+ want to test but it's not\
+really looking at what people \
+ will actually do with the\
+system or how concrete \
+ are you asking about the\
+things that people actually \
+ do with your system how\
+obtrusive is it so do you \
+ need to get people into\
+your lab or do you ask them \
+ to fill out some sort of\
+survey questions outside \
+ as opposed to how unobtrusive\
+where you might be just \
+ tracking what users do\
+generally And then we will \
+ be talking about the types\
+of goals that you might \
+ have. Are you more interested\
+in realistic use? Are \
+ you more interested in\
+generalizability? Are you more \
+ interested in precision of\
+kind of unpacking something \
+ about, for example, the\
+psychological effects? \
+ So we'll keep on returning\
+to this little diagram, \
+ which probably doesn't\
+make too much sense to you \
+ right now. But I think it's\
+a helpful way of always \
+ sense-checking, are you\
+able to think about the \
+ methods that we'll be\
+talking about in these terms? \
+ So, what's the plan for today? \
+ I really want us to\
+focus on things that you \
+ can apply directly\
+within your LGT and SGT. \
+ That's coming up. So that's\
+why we'll be talking a \
+ little bit about heuristic\
+evaluation and then a little \
+ bit more about ThinkCloud\
+studies and protocols, because \
+ I think that's what will\
+make sense for you to start \
+ doing during the LGT. We\
+will then also spend a lot of \
+ time thinking about what\
+is the theory behind \
+ experimentation? What does it\
+actually mean to experiment? Why \
+ do we do it? Why do we care\
+about understanding the \
+ causes and unpacking whether\
+your system actually improves, \
+ for example, critical\
+thinking or something else? \
+ And that will be reasonably\
+complicated, and we'll \
+ spend quite a bit of time\
+on this, just because I \
+ think that's one of the\
+pieces that are really hard \
+ to understand just by\
+reading a website. If I send \
+ you to a Nielsen's\
+heuristic evaluation page, \
+ within 10 minutes you'll\
+have a decent idea of how to \
+ do it. If I send you to\
+a page about experiments, \
+ it's going to be much\
+harder to pick up. \
+ And both of these things\
+are then the grounding \
+ for us to start thinking\
+about the follow-up studies, \
+ which will be field\
+studies really thinking \
+ about technology probes\
+and so on, which are \
+ particularly helpful within\
+generative AI systems. And \
+ then red teaming methods\
+that I was talking about, \
+ which is another way of\
+kind of sense checking \
+ and working either with\
+experts or your users to \
+ ensure that your system\
+has a lower likelihood of \
+ breaking in ways that are\
+particularly difficult. \
+ All right, so\
+let's get started. \
+ Okay, so let's get\
+started. with the two \
+ lab study type\
+evaluations, the heuristic \
+ evaluation and think\
+-a-lot protocol. \
+ So in heuristic evaluation, \
+ experts guided by a set\
+of usability principles \
+ that we've talked about\
+as the heuristics, \
+ evaluate whether user\
+interface elements, such \
+ as dialogue boxes or\
+menus or navigation \
+ structure or your chat\
+boxes, online help, so on, \
+ conform to tried and\
+tested principles. \
+ So these heuristics\
+closely resemble high \
+ -level design principles,\
+so making designs \
+Timestamp 14 minutes consistent, reducing\
+memory load, and so on, \
+ making sure that you're\
+really using terms that users \
+ understand that the mental\
+models are consistent, \
+ and so on. So as you might\
+remember from some of the \
+ early weeks, the original\
+set of heuristics for HCI \
+ evaluation was developed by\
+Nielsen and his colleagues, \
+ who derived them empirically\
+from a large number of \
+ usability problems. And\
+then the revised version of \
+ these heuristics is listed\
+in the next slide and that's \
+ what we've been talking\
+about in the earlier weeks. \
+ So when you think about\
+heuristic evaluation it \
+ is something that's\
+conducted by experts who \
+ understand these heuristics\
+and it really just takes \
+ a look at your interface\
+and tries to verify whether \
+ there are some problems.\
+So the example here \
+ is we have text that is\
+white and kind of overlaps \
+ with the product images\
+and it makes it all \
+ confusing and complicated\
+and probably hard to rate. \
+ So you should now be able\
+to imagine quite easily what \
+ would it mean to go through\
+a system with the focus \
+ on, for example, user control\
+and freedom and really \
+ start looking for the\
+places where the design that \
+ someone has done or that\
+you have done breaks that \
+ kind of heuristic. So it\
+might be that you get the user \
+ into a state where they have\
+to finish an interaction \
+ that might take five\
+minutes and they have no way \
+ of coming back out of it.\
+That would be an example \
+ of a problem with that\
+particular kind of heuristic. \
+ So how does this actually\
+look like if you're trying \
+ to run it? The playbook is\
+that you need to go and recruit \
+ a set of experts, so\
+people who understand what \
+ these heuristics are and have\
+ideally some experience with \
+ design and designing systems\
+then you need to focus \
+ them on what they're supposed\
+to do so often you will \
+ be doing prepared scripts\
+and guides to ensure that \
+ everyone kind of understands\
+enough about the user task \
+Timestamp 16 minutes the specific use task that\
+you have in mind and that \
+ you're asking them all to focus\
+on the same set of heuristics \
+ for example or the same\
+part support of the system. \
+ Then there's something about\
+what the experts actually \
+ do. Often they have to\
+take at least two passes \
+ through the interface. The\
+first one is just to get a feel \
+ for how the interaction\
+works and what the product \
+ does, and then the second\
+pass is really getting them to \
+ focus on specific elements\
+and follow your protocol. \
+ And you're identifying\
+these usability \
+ problems over time\
+in an iterative \
+ way as you get that\
+data from experts. \
+ And then, in the end,\
+obviously, you provide an \
+ overall summary of how the\
+experts engage with the \
+ system, what are the issues and\
+what are the recommendations \
+ that they came up with.\
+So, relatively simple, \
+ it's kind of a very high level, \
+ well, high level, it's a\
+very surface level thing \
+ that really tries to make\
+sure that regardless of \
+ what the system does behind\
+the scenes or how well \
+ it does or does not work,\
+at least you're capturing \
+ some of these heuristics\
+and you often will \
+ see it as something\
+that's easier to recruit, \
+ especially if, for example,\
+you have these experts within \
+ your team were ready,\
+it's often that kind of \
+ a first cheap low-cost\
+method for you to engage with \
+ an application that you've\
+developed before you \
+ have to go out and try\
+and recruit participants. \
+ So the think-aloud method\
+is you could imagine a \
+ flipped side of the coin\
+when you're trying to really \
+ engage with participants\
+rather than experts and you're \
+ trying to get a sense of\
+how they experience the \
+ system that you've designed\
+so the definition is that in \
+ the thinking aloud test\
+you're really asking the \
+ participants to use the system\
+and you might actually be \
+ giving them specific tasks\
+of what they're supposed \
+ to do so you know take\
+this lecture file upload it \
+ here then try to ask questions\
+that go in this direction \
+ and so on so they'll still\
+get some sort of script \
+ but what you're asking them\
+to do is provide you with \
+ a running commentary,\
+verbalizing in an ongoing way, \
+ what is it that they're\
+thinking about as they go \
+ through the interface. So\
+it's about, oh, this sounds \
+ a little boring, and I don't\
+understand this. And now \
+ I'm thinking about what\
+should I type in here. So \
+ let me let me try and type\
+in this and so on. So this \
+ will be one of the tasks\
+that you'll be asked to do. \
+ You'll be asking\
+other people to do \
+ on your systems in\
+the upcoming LGTs. \
+ So what's what's happening\
+in practice is that you're \
+ really asking users to talk\
+while they're performing \
+ tasks those tasks should be\
+something that you're really \
+ interested in so they'll\
+probably be tapping into \
+ some of the core features that\
+you have and for the users \
+ it's slightly unusual\
+because you have to verbalize \
+ what's going on through\
+your head as you're engaging \
+ but what you as the designer\
+really want to get is what \
+ is it that they're thinking\
+what is it they're trying \
+ to do which might not\
+often be obvious. If, for \
+ example, a user stops and is\
+not really engaging with your \
+ system because they're\
+trying to figure out what to \
+ say or what to write, you\
+wouldn't normally know if \
+ they're confused or if they're\
+just thinking quite hard. \
+ You want to hear any\
+questions that arise as they \
+ work. And also, what is it\
+that they're reading? Like, \
+ which parts of the system\
+are they actually engaging \
+ with? So, to really kind\
+of nail that down, you need \
+ to know what users are\
+thinking in this type of \
+ method, rather than just\
+observing, having a little \
+ screencast recording, for\
+example, of what they're doing. \
+ And that's what makes the\
+method quite powerful. \
+ So, how could you\
+do this practically? \
+Timestamp 20 minutes You kind of sit there with the \
+ user, as this amazing\
+diagram shows. \
+ You might have evil\
+thoughts, like, oh no, that's \
+ not what you're supposed\
+to do. Oh my god, how can \
+ you not understand? But\
+you're supposed to be \
+ really quiet. The only\
+things that you're allowed to \
+ kind of say is, tell me\
+what you're thinking. \
+ You're not supposed to answer\
+their questions. You're \
+ just trying to elicit\
+their thought process as if \
+ they were engaging with\
+the system on their own. \
+ But you want to make sure\
+that they're verbalizing \
+ in an ongoing way. So\
+this part of only help on \
+ things that you have pre\
+-decided is really important. \
+ And you need to keep track\
+of what you were helping \
+ people with. So it's\
+not a system about how \
+ someone can use your system\
+if they have an expert who \
+ guides them through it.\
+It's really you trying to \
+ get a sense of how people\
+would engage with the \
+ system on their own, but\
+you get all this additional \
+ layer of information that\
+they capture by talking. \
+ So what you want to do is\
+you want to record what's \
+ happening, as well as do some\
+good notes throughout, so \
+ we'll have to figure out\
+how to do that at the LGTs, \
+ so that you can really get\
+a good sense of what is it \
+ that was going on for them,\
+so you'll probably want \
+ to capture the screen and\
+you might want to, you know, \
+ see, have some watch, but\
+I don't think that's too \
+ necessary for our tasks,\
+apart from understanding how \
+ long it takes people to\
+go through the individual \
+ things you're asking them\
+to do, as well as you want \
+ to record audio and video\
+and event blogs and so on. \
+ So really have a good\
+capture of what's going on \
+ and how the participant has\
+engaged with your system. \
+ So let me just throw this\
+diagram again at you and \
+ show how both of the things\
+that we've talked about so \
+ far have been about these\
+lab experiments. And what \
+ we were trying to do is\
+really get at some precision \
+ of types of questions that\
+we're interested in. So in \
+ both cases, the heuristic\
+evaluation was really looking \
+ at answering specific\
+questions about whether experts \
+ think that our design breaks\
+some established rules \
+ that are kind of instantiated\
+within these heuristics. \
+ And within the think-aloud\
+protocol, we were really \
+ interested in what is it\
+precisely that goes through \
+ people's heads as they\
+engage with a particular \
+ tasks that we've set out for\
+them in a place where they \
+ come to us and we need to\
+be there with them, whether \
+ online or remote. And we're\
+being quite obstructive, \
+ We're trying to get them to\
+spell out exactly or talk \
+ aloud exactly about what's\
+going on in their head. \
+ So it's not particularly\
+realistic. It's not what \
+ people would be doing. But\
+what we're buying by a lack \
+ of realism is that we're\
+really able to get precisely \
+ at the types of questions\
+that we are interested in. \
+ All right, let's\
+now switch gears \
+ and start thinking\
+about experiments. \
+ The two methods that we've\
+talked about so far are \
+ really just ways of collecting\
+patterns of interest. \
+ So, for example, just\
+because an expert says that \
+ this button will confuse\
+users and force them to \
+ create errors, it doesn't\
+mean that we've proven that \
+ that observation is actually\
+true or that changing \
+ that button will fix anything.\
+Although we might trust \
+ their expertise and trust\
+kind of the heuristic \
+ patterns that are already\
+embedded in that evaluation \
+ method, and think that\
+it might be quite likely. \
+ Similarly, if we notice\
+that three users out \
+ of five in our think\
+-aloud protocol really \
+ loved our systems and\
+the other two haven't, \
+ and these three were\
+also wearing glasses, \
+ that might not necessarily\
+mean that glasses \
+ are an important predictor\
+of our system being \
+ successful and that we\
+have to kind of force \
+ everyone who is to use our\
+system to wear glasses. \
+ So experimentation in\
+general is really just a set \
+ of tools and approaches\
+to help us make causal \
+ inferences. that is increase\
+our likelihood that we can \
+Timestamp 24 minutes control the outcome of\
+situations or know that if we \
+ change something, what\
+will happen afterwards. So \
+ for example, it's something\
+that would allow us to \
+ have trust in phrases such\
+as, if we change that button \
+ this way, then 30% fewer\
+users will drop out of \
+ our onboarding funnel. So\
+let's have a look at what \
+ the common problems are and\
+how should we think about \
+ these, how should we think\
+about these approaches? \
+ So this mantra that you've\
+probably heard, correlation \
+ is not causation, is the\
+key reason for why we have \
+ to do experiments and why\
+experiments are relatively \
+ tricky to set up. So a\
+famous example is that if \
+ you look at these two graphs,\
+we might see that as ice \
+ creams go, sales go up,\
+so do shark attacks. So we \
+ might hypothesize that\
+this is causal, that sharks \
+ are attracted to the ice\
+cream and therefore there's \
+ an increase in shark attacks\
+on people, of course, \
+ that would be making a wrong\
+conclusion. You might make \
+ the same point about sunburn\
+and ice cream. It seems \
+ that every time I eat ice\
+cream, I get sunburned. \
+ Or this XKCD comics where\
+someone is standing on a \
+ chair holding a pineapple\
+because it appears to make \
+ their mobile signal better.\
+But is it really? So this \
+ notion of just because two\
+things correlate with each \
+ other, happen next to each\
+other, or just after each \
+ other doesn't mean that\
+they're causally related. \
+ Experiments are ways of\
+trying to separate out these \
+ kind of accidental\
+correlations where two things \
+ cluster from causal correlations.\
+So maybe it is exactly \
+ ice cream sales that drive\
+shark attacks because \
+ there's more people in the\
+water which brings sharks \
+ closer and therefore we get\
+more attacks. We don't know. \
+ And experiments are the\
+ways of trying to unpack \
+ that if-something-then\
+-something-else types of claims. \
+Timestamp 26 minutes So, enough of the\
+motivations and the problems. \
+ Let's start looking at\
+what experiments are, \
+ and let's start doing that\
+by looking at definitions, \
+ which can be often a\
+nice starting point. \
+ And as you will probably\
+know, experiments and this \
+ approach to cause identification\
+is essentially a key \
+ part of what you would call\
+a traditional scientific \
+ method. So in those places\
+you start by stating a clear \
+ testable hypothesis. So a\
+hypothesis about if something \
+ happens then these\
+other things will happen \
+ afterwards. By testable we mean\
+that the hypothesis must be \
+ quantifiable and measurable.\
+So you have to be able \
+ to say if this happens then\
+this amount of change will \
+ happen. And the thing that\
+we're trying to really \
+ measure is the cost. So the\
+effect of, if I shift this \
+ starting point, then something\
+else will shift later. \
+ And experiments are\
+essentially a way of \
+ trying to get at that\
+cost. So let's have \
+Timestamp 27 minutes a look at how that\
+works in practice. \
+ So what we're going to do\
+as a little toy example is \
+ to start with this relatively\
+simple hypothesis that \
+ we might want to test, and\
+that is that the Mac OS \
+ menu bar, which is anchored\
+to the top of the screen for \
+ those who don't have Macs,\
+is faster to access for \
+ users than a windows menu\
+bar which is attached to any \
+ of the application windows\
+and therefore might be \
+ just all over your place all\
+over your screen depending \
+ on how big your window is\
+where it's positioned and \
+ so on so what does that\
+mean what what what is the \
+ cause we're inferring here\
+what is it causing how does \
+ it fit into the the theory of\
+causation and experimentation \
+ that we've talked about\
+here on the previous \
+ slide so in this instance\
+what we're saying is that \
+ there's something about the\
+design decision on Mac, which \
+ we're saying is about where\
+the bar is placed, that \
+ makes the bar work\
+differently for users than on \
+ Windows. So in other words,\
+if we design the bar in the \
+ same way as Windows does,\
+we expect the users to be \
+ slower to engage with it\
+than they would be if the bar \
+ was on the top of the\
+screen. Does that make sense? \
+ So the underlying idea is\
+that when you're thinking \
+ about experimental\
+design, you're talking \
+ about these independent\
+variables, these sort of \
+ things that you expect\
+are somewhat related to \
+ the cause. And you're\
+trying to manipulate these \
+ and understand how that\
+changes some output, \
+ which is often described\
+as a dependent variable. \
+ So what you can be thinking\
+about is that the process \
+ that you're trying to\
+understand, in this case, how \
+ quickly people can engage\
+with the menu bar, is a black \
+ box with lots of inputs and\
+few outputs. So the black \
+ box might be the user\
+using your system with and \
+ the controlled experiment\
+twiddles some of the input \
+ knobs so for example where\
+the menu bar is stored um so \
+ those are the independent\
+variables and then you \
+ observe some of the outputs\
+the dependent variables in \
+ this case how fast people can\
+access it to see how they're \
+Timestamp 29 minutes affected so for the\
+independent variable we might \
+ be saying mac and pc but\
+we could also be saying um \
+ you know the the bar position\
+at a particular part of \
+ the screen or anything else\
+that we're interested in. \
+ Now the problem often is\
+that there are many other \
+ input knobs as well,\
+these unknown uncontrolled \
+ variables that might affect\
+the process that we're \
+ observing in an unpredictable\
+ways. So often the purpose \
+ of running an experiment\
+is to really eliminate \
+ the effects of these unknown\
+variables or at least \
+ render them kind of\
+distributed across both of the \
+ conditions so that we can\
+really draw conclusions \
+ about how independent\
+variables affect the dependent \
+ variable. So that's the\
+epsilon at the bottom here. \
+ So what could some of these\
+unknown variables be? If \
+ we are still thinking about\
+the menu bar experiment, \
+ some factors might affect how\
+fast the user can reach the \
+ menu bar. So for example,\
+the pointing device that \
+ they're using, whether\
+it's a mouse or jackball or \
+ joystick or something that\
+they're not really used to, how \
+ fatigued the user is, how\
+used are they to one kind of \
+ menu bar or the other. So\
+if you have someone who's \
+ spent their whole life on\
+Windows, they will be looking \
+ for the menu bar at the top\
+of the screen and so on. \
+ So all of these\
+unknown variables might \
+ really affect the\
+dependent variable, \
+ which is the speed of\
+access to the menu. \
+ So concretely, if we bring\
+in a bunch of people who \
+ may have never used a Mac\
+before, it might be that \
+ these people are faster\
+on Windows when in reality \
+ the Mac, on average,\
+might be better and so on. \
+ So what this means is that\
+in our controlled studies, \
+ we're always trying to\
+minimize or at least control \
+ and be cognizant of\
+these variables so we can \
+ consider them in our analysis.\
+Which is why experimental \
+ tasks are either often\
+more abstract, so it is \
+ about I need you to access\
+the menu bar at 10 times \
+ in a row, and I'll be\
+varying the position of the \
+ application screen on the\
+big screen, for example. \
+ And we also have to be\
+very careful about who \
+ we recruit and what\
+are the unknown and \
+ uncontrolled variables\
+that we're introducing. \
+ So how would this abstract\
+babble actually work in \
+ our example? So we're\
+saying, as a reminder, we're \
+ testing whether Mac bar\
+is faster to access than \
+ Windows menu bar. We've\
+already said that one of \
+ our independent variables\
+is exactly the cause that \
+ we're trying to look at,\
+which is the difference in \
+ interface style. So where\
+does the menu bar sit? \
+ Is it where Mac puts\
+it or Windows puts \
+ it? The other independent\
+variable might \
+ be the training that\
+we give to users \
+ so that they know where to\
+expect that menu bar. that \
+ might have strong effects.\
+If someone's not trained, \
+ then or the first time\
+they're engaging with this \
+ interface, they might take\
+much longer, not because it \
+ takes longer time to move\
+the mouse to the right \
+Timestamp 32 minutes place, but because they just\
+don't know where to find \
+ it, for example. So there's\
+multiple independent variables \
+ that we could bring in,\
+depending on what we're \
+ interested in. And then\
+obviously, we're measuring \
+ some dependent variables.\
+So we are talking about the \
+ length of time that it takes.\
+Perhaps we could be looking \
+ at errors, we could be\
+looking at satisfaction, \
+ we could be looking at how\
+many tasks people actually \
+ manage to get done within\
+a time. So all of these are \
+ specific instantiation of\
+this hypothesis that Mac \
+ menu bar is faster or better\
+than Windows menu bar. \
+ And we're just saying the\
+dependent variables are \
+ examples of what the faster\
+better actually means. And \
+ then often you will use\
+statistical tests to accept and \
+ reject the hypothesis based\
+on your empirical data, \
+ which again would normally\
+be a whole course. And I \
+ hope that you've had enough\
+statistics in the rest of \
+ your classes that you\
+already know what this means. \
+ So the important thing\
+for HCI here is to really \
+ understand what experiments\
+are trying to do, that we're \
+ trying to show that by moving\
+something about our system, \
+ something else has a tendency\
+to happen and then really \
+ be able to talk about what\
+is the difference between \
+ an independent and a\
+dependent variable why is it \
+ important to control the\
+other interfering inputs if we \
+ want to understand something\
+about causation and so on \
+ so we don't expect you to\
+be experts in experiments \
+ and experimentation from this\
+very short lecture but it's \
+ really important for you to\
+understand at least these \
+ basics as we go forward in\
+thinking about what does \
+ it mean to evaluate your\
+systems. So to finish, I'll \
+ point you to this Campbell\
+and Kronbach chapter that you \
+ have on Keats. It really\
+gives probably the best \
+ overview of the ideas behind\
+experimentation, what it means, \
+ and how to run experiments\
+that I could find throughout \
+ the literature. It doesn't\
+really just explain what \
+ experiments are, but there's\
+a lot of deep kind of \
+ discussion about why experiments\
+work the way they do. \
+ So I think it's\
+really important for \
+ you to go through that\
+text and understand \
+ quite deeply what\
+the claims we're \
+ making when we are running\
+studies and what are the \
+ things that we need to\
+avoid. I'm conscious that the \
+ document, you know, that\
+the PDF might be quite \
+ difficult to read but it will\
+really help you understand \
+ this stuff in much more\
+depth and at your pace. \
+ There's also interesting\
+bits in there about the \
+ philosophy of science that\
+kind of helps us understand \
+ this movement from the\
+value of local observations, \
+ meaning, you know, we interview\
+a couple of people and \
+ say, ah, 10 people out of\
+15 have had this problem, \
+ so we should probably\
+change our design, and then \
+ contrast these kind of\
+approaches to what we've recently \
+ discussed, which is\
+talking about causation and \
+ generalizable statistical\
+patterns, And what does this \
+ mean? So, for example,\
+when you're wanting to make \
+ claims such as a design\
+of a generative AI tutor \
+ will lead to 30% higher\
+learning if we include feature \
+ X rather than feature Y,\
+you do need to understand \
+ causality and you do need\
+to understand experiments. \
+ So let's quickly get\
+into some of the threats \
+ that experiments face.\
+And these are often \
+ reported or talked\
+about as the threats to \
+ validity and reliability\
+of your experiment. \
+ So the three top problems\
+that cause threats \
+ to reliability and\
+validity are internal \
+ validity, external\
+validity, and reliability. \
+ And I'll go through each\
+one of these at a time. \
+ So internal validity refers\
+to whether the effects \
+ we see on the experiment\
+outputs, so for example \
+ how fast people have moved\
+to the menu bar, were \
+ actually caused by the\
+changes we made to the \
+ inputs. So for example\
+whether we gave them the Mac \
+ version or the Windows\
+version. or if they were \
+ caused by some other unknown\
+variable that we didn't \
+ control or measure and\
+we know nothing about. \
+ So if you take the\
+comic on the right, \
+ the boy might assume that\
+there's a cause between \
+ the seatbelt sign turning\
+on, which often happens \
+ before you hit turbulence,\
+and the plane starting \
+ to move. So from his\
+perspective, he's saying, \
+ well, my experiment is\
+anytime I see the sign being \
+ turned on, the plane gets\
+bumpy, and that's not great. \
+ So statisticians call\
+this effect, so the sign \
+ gets turned on only when\
+another variable interjects, \
+ which is you're flying\
+into a turbulence. \
+ So statisticians call\
+this effect confounding. \
+ When a variable does not,\
+that we didn't control, \
+ has a systematic effect on\
+the dependent variables. \
+ Thinking back to the Mac\
+and Windows bar experiment, \
+ if we accidentally only\
+recruited long-term Mac users \
+ and then collected only\
+one to two trials with each \
+ user, it would be very\
+likely that the Mac interface \
+ would win whatever it is\
+that we would be measuring, \
+ but that's less about\
+how the design operates \
+ and more about what our\
+users used to and their \
+ skill on operating Mac\
+and just general hatred \
+ of Windows that might\
+then lead to the impact. \
+ So it's the knowledge\
+of the interface that \
+ the users are bringing\
+in, which would be \
+ the uncontrolled\
+confounding variable here. \
+ The cost of this approach\
+is external validity. So \
+ if you control too many\
+things, then you might turn \
+ the experiment into something\
+that's so focused that \
+ it doesn't resemble the\
+real tasks in the world \
+ outside of the lab anymore.\
+So when this happens, for \
+ example, if we try to\
+control all the factors that \
+ might affect the speed and\
+menu access, that would \
+ mean that we fix the starting\
+mouse position, we fixed \
+ the menu bar, there are\
+only specific choices that \
+ don't necessarily make\
+sense, we fixed exactly the \
+ hardware and had one\
+particular user to this, it \
+ would be very hard to argue\
+that our lab experiment \
+Timestamp 38 minutes then generalizes to how\
+menus are used in the varying \
+ conditions that are\
+encountered in the real world. \
+ So that trade-off between\
+internal validity and \
+ external validity is always\
+kind of a big question in \
+ study design and it's something \
+ that you need to compromise, \
+ kind of find a good\
+balance in between. \
+ reliability refers to\
+whether the effect we see, \
+ so the relationship\
+between the independent \
+ and dependent variables,\
+such as the Mac bar \
+ position and Windows\
+position and how fast a mouse \
+ can get there, is\
+repeatable. So if we ran this \
+ experiment again, would\
+we see the same effect \
+ or would we see something\
+totally different? \
+ If our experiment involved\
+only a single trial, so \
+ clicking on the menu board\
+just once, then even if \
+ we had constant every other\
+variable we could think \
+ of, unknown variations such\
+as how focused the person \
+ will have been at that\
+specific time will still \
+ cause some extra error in\
+the experiment and single \
+Timestamp 39 minutes data sample is rarely a\
+reliable evidence. There will \
+ always be some random\
+variation in people and the \
+ way how they do things,\
+which means that often for \
+ reliability, you will be\
+repeating a lot of things. \
+ Okay, so let's very quickly\
+have a look at typical \
+ dangers that happen to\
+internal validity in HCI \
+ -style experiments and some\
+solutions that we have. \
+ So you'll notice that\
+very often those solutions \
+ tend to come in two flavors.\
+Either you randomize \
+ something so that you kind\
+of prevent the intervening \
+ variables to have\
+systematic effects on your \
+ dependent variables, or you\
+try and control and kind \
+ of hold constant things\
+that could have effect. \
+ So the first big thing are\
+ordering effects. People \
+ are annoying, they learn,\
+they get tired. So if you give \
+ people 10 similar tasks,\
+I don't know, adding five \
+ digit numbers, and you change\
+interface in between the \
+ tasks, if you keep the same\
+order of the interfaces, \
+ probably the fifth interface\
+will always turn out to \
+ be slowest, not because it's\
+worst but because people \
+ will have become really\
+tired or annoyed and they \
+ don't really want to do that\
+kind of addition anymore. \
+ So often a good way is\
+to not present the task \
+ interfaces in the same order\
+and you kind of randomize \
+ or counterbalance the\
+ordering in between \
+ participants. The other piece\
+are around selection effects \
+ so very often humans will\
+be annoying that they \
+ come in with specific\
+skills. So for example, when \
+ we talked about this\
+hypothetical idea of recruiting \
+ lots of Mac users and\
+no Windows users, and \
+ then assigning them to\
+Windows and Mac conditions, \
+ the Mac will always\
+win because people are \
+ used to this. So the\
+idea is that you want to \
+ think carefully about what\
+are the types of populations \
+ that would have impact on\
+your experiment ideally \
+ not sample your users\
+only from specific sub \
+ populations and then when\
+you do sample users again you \
+Timestamp 41 minutes try to randomly assign them\
+to independent variables. \
+ Additional threats to\
+experimental validity are about \
+ experimental bias so if\
+you've spent your half a \
+ year building an amazing\
+project and now you're \
+ introducing that to a participant\
+and you're then asking \
+ the participant to\
+compare it to some sort of \
+ competitor's app, you might\
+be much more excited about \
+ your own project than the\
+competitor's and then maybe \
+ the users will pick it up\
+and behave much nicer or \
+ say they much like your\
+product much more than the \
+ competitor's one, not because\
+it's better but because \
+ they've been kind of biased\
+by the experiment. So \
+ the best way to control\
+this is just to be aware \
+ of it and make sure that if\
+you are introducing, you're \
+ trying to be as unbiased\
+as possible. Ideally, \
+ you might not know which of\
+the categories or apps the \
+ participants have been\
+randomized into and so on. \
+ Providing equivalent\
+training is \
+ also really important\
+for everyone. \
+ similarly some of the threats\
+to external validity come \
+ up um you know in studies\
+very often so kind of only \
+ focusing on people from\
+your class for example will \
+ not be a great um population\
+if you're trying to speak \
+ about um young people in the\
+uk in general so if you're \
+ just sampling from university\
+and from an informatics \
+ course there are some\
+obvious threats to you guys \
+ are amazing but you're not\
+necessarily exactly representative \
+ of the same city of of\
+the whole uk population \
+ so those are population\
+threats there might be \
+ ecological threats again\
+as we were talking about \
+ if you make the conditions\
+of the test that \
+ you're getting your\
+participants to do or the \
+ task that you're doing,\
+getting your participants \
+ to do unrealistic, then\
+very often you might \
+ get data from an experiment\
+that is not useful \
+ at all. So for example,\
+if you ask people to \
+ create an essay that they\
+really don't care about, \
+ they won't have any value\
+from whether they do it well \
+ or badly, and you're\
+using that task that will \
+ take, you know, 40 minutes\
+of time that you're not \
+ paying people for to test how\
+well your critical thinking \
+ app works well then you\
+will have probably some \
+ ecological validity threats\
+because people just won't \
+ pay enough attention and\
+they won't behave they \
+ won't engage with your app\
+in the way that they would \
+ in the real world again\
+ideas about training and \
+ and the types of tasks\
+are all pointers to \
+ potential issues that your\
+experiment might run into \
+ so in this final last section\
+i really wanted to talk \
+ about some basics of\
+experimental design techniques \
+ so we'll run through these\
+very very quickly and \
+ again the text that you have\
+in keats is something you \
+ should look into because it\
+has much more information \
+ about the details but\
+the two main designs that \
+ we often consider in hci\
+or a human ai collaboration \
+ are the between and within\
+subject designs so let's \
+ talk a little bit about\
+the between subject design \
+ what happens there is that\
+users are divided into you \
+ know n categories often two\
+or maybe potentially more \
+ if you have three different\
+apps that you want to \
+ engage with and then each\
+of the groups only sees one \
+ of the options so if we\
+stay with two interfaces a \
+ and b one group of people\
+will only see an interface \
+ a and the other group of\
+people people will only see \
+ an interface B and again\
+you can imagine people in \
+ a are seeing Mac menu bar\
+people in B are seeing the \
+ Windows menu bar and then\
+what you're measuring is \
+ how quickly are they able\
+to find things in the \
+ taskbar so what you're\
+doing is you're comparing \
+ often the mean of the\
+number of seconds it took \
+ people to do a task X in\
+the group A and you compare \
+ that in the group B. So\
+what this does is that \
+ it eliminates variation\
+due to ordering effects. \
+ Users can't really learn\
+from one interface to \
+ the other, but as you can\
+imagine, what it keeps \
+ is the difference between\
+people. So if you have \
+ very high differences\
+between people, then someone \
+ who really likes Windows\
+and you will have that been \
+ randomized into the windows\
+condition might be much \
+ faster than if they were\
+randomized into the condition \
+ with the mac in contrast\
+the within subject design \
+ tries to address that problem\
+of uncontrolled variation \
+ in a different way which\
+is that each user then \
+ sees both of those interfaces\
+in ideally a random or \
+ balanced order what this\
+means is that the results \
+ then are compared within\
+each user. So what you're \
+ looking at is not necessarily\
+how long it took people \
+ to go from X to Y on a Mac\
+versus a Windows machine, \
+ but you're interested in\
+seeing whether people were \
+ generally faster on Mac\
+than they were on Windows. \
+ The problem here is that\
+people can use, people can \
+ learn. So while you're\
+eliminating variation due to \
+ user differences, because\
+the user is only compared \
+ with self, you are not really\
+dealing with the problem \
+ of maybe there's some\
+bleed through from task A \
+ to task B from one person\
+to within that one person. \
+ So just to visualize\
+this on some sort of \
+ more of a diagrammatic\
+type of interface, \
+ the between subject\
+design, as you can see, has \
+ individual subjects.\
+they all go through the \
+ same pretest and posttest,\
+but some subjects only \
+Timestamp 47 minutes see treatment A, which\
+might be Mac, some subjects \
+ see treatment B, which\
+might be Windows, and \
+ some subjects see a\
+controlled treatment, which \
+ might be working on\
+their phone, for example. \
+ In contrast, the\
+within subjects, \
+ you will see again have\
+the same pretest and \
+ posttest potentially,\
+but then everyone goes \
+ through the three\
+conditions at the same time, \
+ having some sort of post\
+-test for that condition \
+ after each time. Notice\
+this green kind of part \
+ where we're counterbalancing,\
+where half of \
+ the participants first\
+engage with Mac and then \
+ they engage with Windows,\
+whereas the first half \
+ of the participants\
+might have engaged with \
+ Windows first and Mac\
+later to kind of balance \
+ the learning, as we've\
+talked about it before. \
+ So as a summary, when\
+you're thinking about these \
+ experiments, there\
+are pros and cons that \
+ depend on what you want\
+to do. The main advantages \
+ of the between subjects\
+is that we have no \
+ training effects, and\
+there's also potentially \
+ less strain on our\
+individual participants, \
+ as these might often\
+be shorter studies. \
+ The main advantages\
+of within subjects \
+ is that we need\
+fewer participants. \
+ And this is particularly\
+important when you \
+ begin to imply some\
+inferential statistics \
+ where we need to see\
+a definitive effect \
+ and not just a simple\
+comparison of means. \
+ It's also quite nice\
+because we might be able to \
+ look at more precisely\
+at the difference in \
+ results for the same\
+participant, especially if you \
+ expect that there's going\
+to be a fairly large \
+ between participant\
+variation in how they engage. \
+ Now, finally, the problem\
+here is that these \
+ designs become really\
+complex very quickly \
+ the moment you start\
+adding conditions. \
+ So in summary, both of these \
+ options are\
+different compromises \
+ that try to unpack that\
+difficulty of how do you get \
+Timestamp 49 minutes at understanding a cause.\
+If I change A, how will my \
+ dependent variable change,\
+knowing that there's so many \
+ other inputs that we don't\
+control within the system. \
+ So just to summarize\
+what we've started \
+ talking about today,\
+and I'm conscious that \
+ it's been quite long\
+and quite theoretical \
+ and much heavier than\
+the last two weeks. \
+ But we have started talking\
+about a fairly in-depth \
+ and intricate piece of HCI,\
+which means that there's \
+ lots of research methods\
+that include various options, \
+ such as the heuristic or\
+think-aloud studies we've \
+ talked about today,\
+experiments, field studies that \
+ we'll talk about next week,\
+as well as surveys, which \
+ I expect that you know.\
+What I really want you to \
+ remember from today is both\
+what controlled experiments \
+ are trying to do and why\
+manipulating independent \
+ variables and measuring\
+dependent variables is one \
+ of the ways in which they\
+do try to get at causation. \
+ Also, I'd like you to think\
+about or remember what \
+ it means to defend against\
+the threats to internal, \
+ external validity and\
+reliability and how that \
+ kind of impacts this\
+experimental manipulation. \
+ as well as being kind\
+of aware of the words \
+ of randomization,\
+counterbalancing, and \
+ how these are often\
+used to address some of \
+ these threats to\
+validity and reliability. \
+ So the very final slide for\
+this week is again highlighting \
+ this notion of we have\
+multiple methods that we \
+ can think about and each of\
+these methods has particular \
+ advantages and particular\
+limitations that we often \
+ need to make compromises\
+about and that we pick based \
+ on what we really are\
+interested in and what we're \
+ willing to kind of not\
+focus on as much. And that's \
+ often why research is also\
+triangulate. So you might run \
+ an experiment, but then you\
+might also run an observational \
+Timestamp 51 minutes study or a think-aloud\
+study to understand a \
+ little more about why and\
+how people are engaging with \
+ your system combine the\
+results from multiple methods. \
+ So with this I'll leave\
+you to your reading and I \
+ look forward to seeing you\
+at the LGTs and next week \
+ we'll be talking about red\
+teaming and we'll also be \
+ talking about technology\
+probes as the final two \
+ methods that you'll need for\
+this course. See you then! }
